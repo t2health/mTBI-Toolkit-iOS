@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>mTBI - Coding Guide</title>
+ <!--        <link rel="stylesheet" href="../../jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="../../jquery/mtbi.css" />
+
+        <link rel="shortcut icon" href="../../favicon.ico" />
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+        <link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+        <script type="text/javascript" charset="utf-8" src="../../phonegap-1.0.0.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/override.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery.mobile-1.0b3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/main.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="codingWizardPage" data-title="mTBI - Coding Guide" data-theme="b">
+            <div data-role="header" data-theme="b">
+                <h1>Walk-thru</h1>
+                <a href="../../main.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            </div>
+            <div data-role="header" data-theme="a" data-position="fixed">
+                <h3>In Progress</h3>
+                <a id="cmdResults" data-role="button" href="javascript:void();" onclick="return false;" class="ui-btn-left" style="display:none;">Coding</a>
+                <a id="cmdClear" data-role="button" href="javascript:void();" onclick="clearCoding();return false;" class="ui-btn-right">Reset</a>
+            </div>
+            <div data-role="content">
+                <div id="codingResultsDiv" style="display:none;" >
+                    <div class="mtbi-outer-rounded">
+                    <div class="ui-header ui-bar-d">
+                        <h3 class="ui-title">Coding</h3>
+                    </div>
+                    <div id="codingResults"  data-theme="b"></div>
+                    <a id="cmdSendMessage" data-role="button" href="javascript:void();" onclick="mailCodes();" style="display:none;">Send Coding </a>
+                    </div>
+                </div>
+                <div  style="margin-top:5px;" id="guideSteps"></div>
+            </div>
+        </div>
+    </body>
+</html>

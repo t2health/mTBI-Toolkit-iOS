@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="At Home Vestibular Rehabilitation Exercises">
+	<step id="step1" positiveStepId="" negativeStepId="" neutralStepId="step2">
+		<title>1. Start by sitting upright in bed.</title>
+		<content><![CDATA[
+                <div style="width:100%;text-align:center;">
+		<img class="examplePhoto" src="../../img/vestibular_rehab/step1.png" />
+                </div>
+		<p>Hold each of these positions for 30 seconds</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step2" positiveStepId="" negativeStepId="" neutralStepId="step3">
+		<title>2. Turn head to the left.</title>
+		<content><![CDATA[
+                <div style="width:100%;text-align:center;">
+		<img class="examplePhoto" src="../../img/vestibular_rehab/step2.png" />
+                </div>
+		<p>Hold each of these positions for 30 seconds</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step3" positiveStepId="" negativeStepId="" neutralStepId="step4">
+		<title>3. Lie back.</title>
+		<content><![CDATA[
+                <div style="width:100%;text-align:center;">
+		<img class="examplePhoto" src="../../img/vestibular_rehab/step3.png" />
+                </div>
+		<p>Hold each of these positions for 30 seconds</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step4" positiveStepId="" negativeStepId="" neutralStepId="step5">
+		<title>4. Turn head to the right.</title>
+		<content><![CDATA[
+                <div style="width:100%;text-align:center;">
+		<img class="examplePhoto" src="../../img/vestibular_rehab/step4.png" />
+                </div>
+		<p>Hold each of these positions for 30 seconds</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step5" positiveStepId="" negativeStepId="" neutralStepId="step6">
+		<title>5. Roll over to the right side.</title>
+		<content><![CDATA[
+                <div style="width:100%;text-align:center;">
+		<img class="examplePhoto" src="../../img/vestibular_rehab/step5.png" />
+                </div>
+		<p>Hold each of these positions for 30 seconds</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step6" positiveStepId="" negativeStepId="" neutralStepId="step7">
+		<title>6. Sit up straight again.</title>
+		<content><![CDATA[
+                <div style="width:100%;text-align:center;">
+		<img class="examplePhoto" src="../../img/vestibular_rehab/step6.png" />
+                </div>
+		<p>Hold each of these positions for 30 seconds</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step7" positiveStepId="" negativeStepId="" neutralStepId="step8">
+		<title>7. Repeat in the opposite direction, e.g., start by turning head to the right.</title>
+		<content><![CDATA[
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step8" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>8. Repeat the entire sequence three times.</title>
+		<content><![CDATA[
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+</workflow>

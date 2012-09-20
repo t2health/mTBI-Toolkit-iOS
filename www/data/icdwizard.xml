@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Coding Wizard">
+    <step id="0" branchLabels="Yes,No" branchIds="1,100" codes="" >
+        <title>Initial TBI Encounter?</title>
+        <content><![CDATA[
+			<p>Is this the first time the patient has been seen by <strong>ANY</strong> medical professional for TBI (regardless of when the injury occurred)?</p>
+                        <p> Does not refer to the first time the patient is seen by each clinician for that particular TBI.</p>
+
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="1" branchLabels="" branchIds="2" codes="0" >
+        <title>Initial TBI Encounter</title>
+        <content><![CDATA[
+                        <h3>We will begin by entering 8XX Series coding</h3>
+                        <ul>
+                            <li>8XX series code used only once and for initial encounter</li>
+                            <li>Clinical documentation must support that the encounter coded is the initial encounter for that particular injury</li>
+                            <li>A fourth digit is required that further describes the 8XX series</li>
+                            <li>A fifth digit is required to describe the level of consciousness associated with the TBI</li>
+                        </ul>
+		]]></content>
+        <detailedContent>Primary diagnosis</detailedContent>
+    </step>
+    <step id="2" branchLabels="Next" branchIds="3" codes="" >
+        <title>Personal history of TBI Code</title>
+        <content><![CDATA[
+                        <div data-role="fieldcontain">
+                        <label for="vcode" id="lblVCode">V-Code:</label>
+                        <input type="text" name="vcode" id="vcode" value="V15.52_B" style="font-size:120%;" readonly="readonly"/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="select-related" class="select">Injury related to global war on terrorism?</label>
+                        <select name="select-related" id="select-related" onchange="calcVCode();">
+                            <option value="unknown">Unknown</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="select-severity" class="select">Level of Severity of TBI</label>
+                        <select name="select-severity" id="select-severity" onchange="calcVCode();">
+                            <option value="mild">Mild</option>
+                            <option value="moderate">Moderate</option>
+                            <option value="severe">Severe</option>
+                            <option value="penetrating">Penetrating</option>
+                            <option value="unknown" selected="selected">Unknown</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="history" class="select">Personal history of traumatic brain injury NOT otherwise specified:</label>
+                        <select name="history" id="history" data-role="slider" onchange="calcVCode();">
+                            <option value="off">No</option>
+                            <option value="on">Yes</option>
+                        </select>
+                    </div>
+		]]></content>
+        <detailedContent>Code:</detailedContent>
+    </step>
+    <step id="3" branchLabels="Next" branchIds="4" codes="4" >
+        <title>Common Symptoms Associated with TBI</title>
+        <content><![CDATA[
+                        <h3>Symptom codes are used that best represent the patient's presenting complaint, e.g., headaches, insomnia and vertigo, as the primary code</h3>
+                        <ul>
+                            <li>Symptom Code(s)</li>
+                        </ul>
+		]]></content>
+        <detailedContent>Code:</detailedContent>
+    </step>
+    <step id="4" branchLabels="Next" branchIds="5" codes="5" >
+        <title>Deployment Status Code</title>
+        <content><![CDATA[
+                        <h3>Deployment Status Code</h3>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="5" branchLabels="Next" branchIds="1000" codes="6" >
+        <title>TBI Screening (if applicable)</title>
+        <content><![CDATA[
+                        <h3>TBI Screening</h3>
+                        <ul>
+                            <li>Code V80.01</li>
+                            <li>Must be coded if screening occurs at a visit</li>
+                            <li>A TBI diagnosis code should not be entered for a positive screen since a positive TBI screen does not equal a TBI diagnosis</li>
+                        </ul>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="100" branchLabels="Next" branchIds="101" codes="">
+        <title>Subsequent TBI Encounter</title>
+        <content><![CDATA[
+			<p>We will begin by entering symptom codes</p>
+                        <p>Symptom cods are used that best represent the patient's presenting complaint, e.g., headaches, insomnia and vertigo, as the primary code.</p>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="101" branchLabels="Next" branchIds="102" codes="4" >
+        <title>Common Symptoms Associated with TBI</title>
+        <content><![CDATA[
+                        <h3>Symptom codes are used that best represent the patient's presenting complaint, e.g., headaches, insomnia and vertigo, as the primary code</h3>
+                        <ul>
+                            <li>Symptom Code(s)</li>
+                        </ul>
+		]]></content>
+        <detailedContent>Code:</detailedContent>
+    </step>
+    <step id="102" branchLabels="Next" branchIds="103" codes="">
+        <title>Personal history of TBI Code</title>
+        <content><![CDATA[
+                        <div data-role="fieldcontain">
+                        <label for="vcode" id="lblVCode">V-Code:</label>
+                        <input type="text" name="vcode" id="vcode" value="V15.52_B" style="font-size:120%;" readonly="readonly"/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="select-related" class="select">Injury related to global war on terrorism?</label>
+                        <select name="select-related" id="select-related" onchange="calcVCode();">
+                            <option value="unknown">Unknown</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="select-severity" class="select">Level of Severity</label>
+                        <select name="select-severity" id="select-severity" onchange="calcVCode();">
+                            <option value="mild">Mild</option>
+                            <option value="moderate">Moderate</option>
+                            <option value="severe">Severe</option>
+                            <option value="penetrating">Penetrating</option>
+                            <option value="unknown" selected="selected">Unknown</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="history" class="select">Personal history of traumatic brain injury NOT otherwise specified:</label>
+                        <select name="history" id="history" data-role="slider" onchange="calcVCode();">
+                            <option value="off">No</option>
+                            <option value="on">Yes</option>
+                        </select>
+                    </div>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="103" branchLabels="" branchIds="104" codes="1">
+        <title>Late Effect Code</title>
+        <content><![CDATA[
+			<p>Late Effect Code</p>
+                        <ul>
+                            <li>Used for all follow-up visits related to TBI</li>
+                        </ul>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="104" branchLabels="Next" branchIds="1000" codes="5">
+        <title>Deployment Status Code</title>
+        <content><![CDATA[
+			<p>Deployment Status Code</p>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <step id="1000" branchLabels="" branchIds="" codes="">
+        <title>Finished Coding</title>
+        <content><![CDATA[
+			<p>Finished walk through, press button above to send coding.</p>
+		]]></content>
+        <detailedContent></detailedContent>
+    </step>
+    <lists>
+        <list id="0" title="800.xx - 804.xx and 850.xx - 554.xx Series" codeIds="1,2,3,4,5,6,7,8,9,10" type="single" />
+        <list id="1" title="Late Effect Codes" codeIds="11,12" type="single" />
+        <list id="3" title="Emotional/Behavoiral Symptom Codes" type="single" />
+        <list id="4" title="Common Symptoms Associated with TBI" codeIds="19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,38" type="multi" />
+        <list id="5" title="Deployment Status Codes" codeIds="39,35,36" type="single" />
+        <list id="6" title="TBI Screening Code" codeIds="0,37" type="single" />
+    </lists>    
+    <codes>
+        <code id="0" code="Skip" category="" desc="" addListId="7" />
+        
+        <code id="1" code="800.xx" category="" desc="Fractures of vault of skull" addListId="7" />
+        <code id="2" code="801.xx" category="" desc="Fractures of base of skull" addListId="7" />
+        <code id="3" code="802.xx" category="" desc="Fractures of face bones" addListId="7" />
+        <code id="4" code="803.xx" category="" desc="Other and unqualified skull fractures" addListId="7" />
+        <code id="5" code="804.xx" category="" desc="Fractures of vault of skull" addListId="7" />
+
+        <code id="6" code="850.xx" category="" desc="Concussion" addListId="7" />
+        <code id="7" code="851.xx" category="" desc="Cerebral laceration and confusion" addListId="7" />
+        <code id="8" code="852.xx" category="" desc="Subarachnoid, subdural and extradural hemorrhages following injury" addListId="" />
+        <code id="9" code="853.xx" category="" desc="Other and unspecified intracranial hemorrhages following injury" addListId="" />
+        <code id="10" code="854.xx" category="" desc="Intracranial injuries of other and unspecified nature" addListId="" />
+        
+        <code id="11" code="905.0" category="Late Effect" desc="Late effect of intracranial injury with skull or facial fracture" addListId="" />
+        <code id="12" code="907.0" category="Late Effect" desc="Late effect of intracranial injury without skull or facial fracture" addListId="" />
+        
+        <code id="13" code="799.21" category="" desc="Nervousness" addListId="" />
+        <code id="14" code="799.22" category="" desc="Irritability" addListId="" />
+        <code id="15" code="799.23" category="" desc="Impulsiveness" addListId="" />
+        <code id="16" code="799.24" category="" desc="Emotional lability" addListId="" />
+        <code id="17" code="799.25" category="" desc="Demoralization and apathy" addListId="" />
+        <code id="18" code="799.29" category="" desc="Other signs and symptoms involving emotional state" addListId="" />
+        
+        <code id="19" code="389.9" category="Hearing" desc="Hearing loss, unspecified" addListId="" />
+        <code id="20" code="388.42" category="Hearing" desc="Hyperacusis" addListId="" />
+        <code id="21" code="388.3" category="Hearing" desc="Tinnitus" addListId="" />
+        
+        <code id="22" code="780.4" category="Neurologic" desc="Dizziness, lightheadedness" addListId="" />
+        <code id="23" code="784.0" category="Neurologic" desc="Headache" addListId="" />
+        <code id="24" code="780.93" category="Neurologic" desc="Memory loss, NOS" addListId="" />
+        <code id="25" code="438.85" category="Neurologic" desc="Vertigo" addListId="" />
+        
+        <code id="26" code="308.9" category="Psychiatric" desc="Acute stress reaction, unspecified" addListId="" />
+        <code id="27" code="300" category="Psychiatric" desc="Anxiety/irritability" addListId="" />
+        <code id="28" code="311" category="Psychiatric" desc="Depression" addListId="" />
+        
+        <code id="29" code="780.5" category="Sleep" desc="Sleep disturbance" addListId="" />
+        <code id="30" code="780.52" category="Sleep" desc="Insomnia" addListId="" />
+        
+        <code id="31" code="368.8" category="Vision" desc="Blurred vision, NOS" addListId="" />
+        <code id="32" code="368.13" category="Vision" desc="Photophobia" addListId="" />
+        
+        <code id="33" code="780.7" category="Other/General" desc="Malaise and fatigue" addListId="" />
+        <code id="34" code="787.02" category="Other/General" desc="Nausea" addListId="" />
+        
+        <code id="35" code="V70.5_5" category="" desc="During deployment encounter" addListId="" />
+        <code id="36" code="V70.5_6" category="" desc="Post-deployment encounter" addListId="" />
+        <code id="38" code="Other" category="" desc="Add additional symptom codes as needed" addListId="" />
+        <code id="39" code="Skip" category="" desc="Unrelated to deployment" addListId="" />
+        <code id="37" code="V80.01" category="" desc="Special screening for TBI" addListId="" />
+        <code id="2000" code="" category="" desc="" addListId="" />
+
+    </codes>
+</workflow>

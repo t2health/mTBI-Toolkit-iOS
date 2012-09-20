@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+    <title>PTSD Checklist – Military Version (PCL-M)</title>
+    <desc>Instruction to patient: Below is a list of problems and complaints that veterans sometimes have in response to stressful military experiences. Please read each one carefully, fill in the circle to indicate how much you have been bothered by that problem in the last month.</desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17" />
+    </scoring>
+    <special text="At least one B item" join="or">
+        <specialStep type="questionInSpec" value="1" >
+            <criteria questionId = "1" valueOver="1" />
+            <criteria questionId = "2" valueOver="1" />
+            <criteria questionId = "3" valueOver="1" />
+            <criteria questionId = "4" valueOver="1" />
+            <criteria questionId = "5" valueOver="1" />
+        </specialStep>
+    </special>
+    <special text="At least three C items" join="or">
+        <specialStep type="questionInSpec" value="3" >
+            <criteria questionId = "6" valueOver="1" />
+            <criteria questionId = "7" valueOver="1" />
+            <criteria questionId = "8" valueOver="1" />
+            <criteria questionId = "9" valueOver="1" />
+            <criteria questionId = "10" valueOver="1" />
+            <criteria questionId = "11" valueOver="1" />
+            <criteria questionId = "12" valueOver="1" />
+        </specialStep>
+    </special>
+    <special text="At least two D items" join="or">
+        <specialStep type="questionInSpec" value="2" >
+            <criteria questionId = "13" valueOver="1" />
+            <criteria questionId = "14" valueOver="1" />
+            <criteria questionId = "15" valueOver="1" />
+            <criteria questionId = "16" valueOver="1" />
+            <criteria questionId = "17" valueOver="1" />
+        </specialStep>
+    </special>
+    <content><![CDATA[
+        <h2>Scoring</h2>
+        <p>The PCL is a self-report measure that takes approximately five to ten minutes to complete. Interpretation of the PCL should be completed by a clinician. A total symptom severity score (range = 17–85) can be obtained by summing the scores from each of the 17 items. A diagnosis can be made by: 1) Determining whether an individual meets DSM-IV symptom criteria, i.e., at least one B item (questions 1–5), 3 C items (questions 6–12), and at least 2 D items (questions 13–17). Symptoms rated as “Moderately” or above (responses 3 through 5) are counted as present. 2) Determining whether the total severity score exceeds a given cutpoint. 3) Combining methods (1) and (2) to ensure that an individual has sufficient severity as well as the necessary pattern of symptoms required by the DSM.</p>
+    ]]></content>
+
+    <questions>
+        <question
+			id="1"
+			title="1.	Repeated, disturbing memories, thoughts or images of a stressful military experience?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="2"
+			title="2.	Repeated, disturbing dreams of a stressful military experience?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="3"
+			title="3.	Suddenly acting or feeling as if a stressful military experience were happening again (as if you were reliving it)?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="4"
+			title="4.	Feeling very upset when something reminded you of a stressful military experience?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="5"
+			title="5.	Having physical reactions, e.g., heart pounding, trouble breathing or sweating, when something reminded you of a stressful military experience?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="6"
+			title="6.	Avoid thinking about or talking about a stressful military experience or avoid having feelings related to it?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="7"
+			title="7.	Avoid activities or situations because they remind you of a stressful military experience?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="8"
+			title="8.	Trouble remembering important parts of a stressful military experience?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="9"
+			title="9.	Loss of interest in things that you used to enjoy?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="10"
+			title="10.	Feeling distant or cut off from other people?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="11"
+			title="11.	Feeling emotionally numb or being unable to have loving feelings for those close to you?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="12"
+			title="12.	Feeling as if your future will somehow be cut short?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="13"
+			title="13.	Trouble falling or staying asleep?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="14"
+			title="14.	Feeling irritable or having angry outbursts?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="15"
+			title="15.	Having difficulty concentrating?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="16"
+			title="16.	Being “super alert” or watchful on guard?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="17"
+			title="17.	Feeling jumpy or easily startled?"
+			desc=""
+			answerIds="1,2,3,4,5"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+    </questions>
+
+    <answers>
+        <answer
+			id="1"
+			title="Not at all"
+			desc=""
+			value="1"
+		/>
+        <answer
+			id="2"
+			title="A little bit"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="3"
+			title="Moderately"
+			desc=""
+			value="3"
+		/>
+        <answer
+			id="4"
+			title="Quite a bit"
+			desc=""
+			value="4"
+		/>
+        <answer
+			id="5"
+			title="Extremely"
+			desc=""
+			value="5"
+		/>
+    </answers>
+</questionare>

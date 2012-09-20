@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Algorithm A: Initial Presentation">
+	<step id="step1" positiveStepId="" negativeStepId="" neutralStepId="step2">
+		<title>Step One: Identify Urgent or Emergent Conditions</title>
+		<content><![CDATA[
+		<p>Indicators for immediate emergency evaluation and treatment:</p>
+		<ul>
+			<li>Current altered consciousness</li>
+			<li>Progressively declining neurological exam</li>
+			<li>Pupillary asymmetry</li>
+			<li>Seizures</li>
+			<li>Repeated vomiting</li>
+			<li>Double vision</li>
+			<li>Worsening headache</li>
+			<li>Cannot recognize people or disoriented to place</li>
+			<li>Behaves unusually or confused and irritable</li>
+			<li>Slurred speech</li>
+			<li>Unsteady on feet</li>
+			<li>Weakness or numbness in arms/legs</li>
+		</ul>
+
+		Note:<br/>
+		<ul>
+			<li>If person is currently deployed, follow guidance for management of mild TBI in deployed setting</li>
+			<li>If person presents immediately after injury (< seven days), then follow local guidance or emergency department (ED) protocols</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step2" positiveStepId="" negativeStepId="" neutralStepId="step3">
+		<title>Step Two: Evaluate for Diagnosis of Mild TBI</title>
+		<content><![CDATA[
+		<ul>
+			<li>Loss of or decreased level of consciousness (< 30 minutes)</li>
+			<li>Loss of memory for events immediately before or after injury (≤ 24 hrs)</li>
+			<li>Alteration of consciousness/mental state (≤ 24 hrs)</li>
+			<li>Normal structural computerized axial tomography (CT) imaging</li>
+			<li>GCS Score: 13–15 (best value within first 24 hours if available)</li>
+		</ul>
+		<p><strong>Note: If diagnosis is moderate or severe TBI, exit this algorithm</strong></p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step3" positiveStepId="" negativeStepId="" neutralStepId="step4">
+		<title>Step Three: Identify if Related Symptoms are Present</title>
+		<content><![CDATA[
+		<p><strong>Physical</strong></p>
+		<ul>
+			<li>Headache</li>
+			<li>Dizziness</li>
+			<li>Balance disorder</li>
+			<li>Nausea</li>
+			<li>Fatigue</li>
+			<li>Sleep disturbance</li>
+			<li>Blurred vision</li>
+			<li>Light sensitivity</li>
+			<li>Hearing loss</li>
+			<li>Noise sensitivity</li>
+			<li>Seizures</li>
+			<li>Transient neurological abnormalities</li>
+			<li>Numbness and tingling</li>
+		</ul>
+
+		<p><strong>Cognitive</strong></p>
+		Difficulties with:<br/>
+		<ul>
+			<li>Attention</li>
+			<li>Concentration</li>
+			<li>Memory</li>
+			<li>Processing speed</li>
+			<li>Judgment</li>
+			<li>Executive control</li>
+		</ul>
+
+		<p><strong>Behavioral/Emotional</strong></p>
+		<ul>
+			<li>Depression</li>
+			<li>Anxiety</li>
+			<li>Agitation</li>
+			<li>Irritability</li>
+			<li>Impulsivity</li>
+			<li>Aggression</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step4" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>Step Four: Determine if Symptoms are Related to Mild TBI</title>
+		<content><![CDATA[
+		<p><strong>Symptoms present, related and on treatment</strong></p>
+                <a href="algorithm_c.html" data-role="button">Refer to Algorithm C: Follow-up of Persistent Symptoms</a>
+
+		<p><strong>Symptoms present, related and not on treatment</strong></p></td>
+                <a href="algorithm_b.html" data-role="button">Refer to Algorithm B: Management of Symptoms</a>
+
+		<p><strong>Symptoms present but unrelated</strong></p>
+		<ul>
+			<li>Provide education and access information</li>
+			<li>Screen for
+				<ul>
+					<li>Stress disorders</li>
+					<li>Substance use disorders</li>
+					<li>Mental health conditions</li>
+				</ul>
+			</li>
+			<li>Follow up as indicated</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+</workflow>

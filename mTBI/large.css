@@ -1,0 +1,34 @@
+body {
+	font-size:14pt;
+	margin-top:.5in;
+	margin-bottom:.5in;
+	}
+div {
+	font-size:20pt;
+}
+p {
+	font-size:12pt;
+	/*color:white;*/
+}
+
+h1 {
+	font-size:16pt;
+	}
+h2 {
+	font-size:14pt;
+	}
+span.header {
+	font-size:16pt;
+}
+span.description {
+	font-size:12pt;
+}
+span.name {
+	font-size:12pt;
+}
+span.title {
+	font-size:12pt;
+}
+span.CreditTitle {
+	font-size:32pt;
+}

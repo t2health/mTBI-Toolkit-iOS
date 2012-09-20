@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>Demo</title>
+ <!--        <link rel="stylesheet" href="../../jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="../../jquery/mtbi.css" />
+
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+        <link rel="stylesheet" href="stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+        <script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
+        <script type="text/javascript" charset="utf-8" src="jquery/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/override.js"></script>
+        <script type="text/javascript" charset="utf-8" src="jquery/jquery.mobile-1.0b3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+
+    </head>
+    <body>
+        <div data-role="page" id="pageDefinition" data-title="mTBI - DoD Definition" data-theme="b">
+            <div data-role="header" data-theme="b" data-position="inline">
+                <h1>Mild Traumatic Brain Injury<br />Pocket Guide (CONUS)</h1>
+                <a href="../../main.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            </div>
+            <div data-role="content">
+                <ul data-role="listview" data-theme="d" data-dividertheme="d" >
+                    <li data-role="list-divider" role="heading">Assessments</li>
+                    <li><a href="toolDHI.html">
+                            <h3>DHI</h3>
+                            <p>Dizziness Handicap Inventory</p>
+                        </a>
+                    </li>
+                    <li><a href="toolESS.html">
+                            <h3>ESS</h3>
+                            <p>Epworth Sleepiness Scale</p>
+                        </a>
+                    </li>
+                    <li><a href="toolGCS.html">
+                            <h3>GCS</h3>
+                            <p>Glasgow Coma Scale</p>
+                        </a>
+                    </li>
+                    <li><a href="toolMAF.html">
+                            <h3>MAF</h3>
+                            <p>Multidimensional Assessment of Fatigue (MAF) Scale</p>
+                        </a>
+                    </li>
+                    <li><a href="toolNSI.html">
+                            <h3>NSI</h3>
+                            <p>Neurobehavioral Symptom Inventory</p>
+                        </a>
+                    </li>
+                    <li><a href="toolPCLM.html">
+                            <h3>PCL-M PTSD</h3>
+                            <p>PTSD Checklist - Military Version</p>
+                        </a>
+                    </li>
+                    <li><a href="toolPHQ9.html">
+                            <h3>PHQ-9</h3>
+                            <p>Patient Health Questionaire</p>
+                        </a>
+                    </li>
+                    <li data-role="list-divider" role="heading">Additional Resources</li>
+                    <li>
+                        <h3>Additional Resources</h3>
+                        <p>Patient Health Questionaire</p>
+                        <ul data-role="listview" data-theme="d" data-dividertheme="d" >
+                            <li data-role="list-divider" role="heading">Additional Resources</li>
+                            <li>
+                                <a href="../www/pdf/mtbi.pdf?page=7" target="_blank" rel="external">
+                                    <h3>MildTraumatic Brain Injury Pocket Guide(CONUS)</h3>
+                                    <p>PDF Version</p>
+                                </a>
+                            </li>
+                            <li><a href="http://www.dcoe.health.mil" target="_blank" rel="external">
+                                    <h3>Defense Centers of Excellence for Psychological Health and Traumatic Brain Injury (DCoE)</h3>
+                                    <p>http://www.dcoe.health.mil</p>
+                                </a>
+
+                            </li>
+                            <li><a href="http://www.dvbic.org" target="_blank" rel="external">
+                                    <h3>Defense and Veterans Brain Injury Center (DVBIC)</h3>
+                                    <p>http://www.dvbic.org</p>
+                                </a>
+                            </li>
+                            <li><a href="http://www.pdhealth.mil/TBI.asp" target="_blank" rel="external">
+                                    <h3>Deployment Health Clinical Center (DHCC)</h3>
+                                    <p>http://www.pdhealth.mil/TBI.asp</p>
+                                </a>
+                            </li>
+                            <li><a href="http://www.traumaticbraininjuryatoz.org" target="_blank" rel="external">
+                                    <h3>The Center of Excellence for Medical Multimedia</h3>
+                                    <p>http://www.traumaticbraininjuryatoz.org</p>
+                                </a>
+                            </li>
+                            <li><a href="http://www.biausa.org" target="_blank" rel="external">
+                                    <h3>Brain Injury Association of America</h3>
+                                    <p>http://www.biausa.org</p>
+                                </a>
+                            </li>
+                            <li><a href="http://www.brainline.org" target="_blank" rel="external">
+                                    <h3>Brainline (WETA)</h3>
+                                    <p>http://www.brainline.org</p>
+                                </a>
+                            </li>
+                            <li data-role="list-divider" role="heading">
+                                <h3 class="ui-li-heading">Clinical Guidelines</h3>
+                                <p>The following are available for download at:</p>
+                            </li>
+                            <li>
+                                <a href="http://www.dcoe.health.mil/ForHealthPros/TBIInformation.aspx" target="_blank" rel="external">
+                                    <h3 class="ui-li-heading">http://www.dcoe.health.mil/ForHealthPros/TBIInformation.aspx</h3>
+                                    <p class="ui-li-desc">Fact Sheet Summarizing VA/DoD Evidence Based Clinical Practice Guideline for Management of Concussion/Mild Traumatic Brain Injury</p>
+                                    <p class="ui-li-desc">DoD Updated mild TBI Clinical Guidance (May 8, 2008)</p>
+                                    <p class="ui-li-desc">DCoE & DVBIC Cognitive Rehabilitation Consensus Conference Report</p>
+                                    <p class="ui-li-desc">Cognitive Rehabilitation Clinical Guidance Fact Sheet</p>
+                                    <p class="ui-li-desc">DoD ICD-9 CM Coding Guidance For Traumatic Brain Injury Fact Sheet</p>
+                                    <p class="ui-li-desc">Driving Following TBI – Clinical Recommendations</p>
+                                    <p class="ui-li-desc">Driving Following TBI – Summary</p>
+                                </a>
+                            </li>
+                            <li data-role="list-divider" role="heading">
+                                <h3 class="ui-li-heading">Patient Education</h3>
+                                <p>The following are available for download at:</p>
+                            </li>
+                            <li><a href="http://www.dvbic.org" target="_blank" rel="external">
+                                    <h3 class="ui-li-heading">http://www.dvbic.org</h3>
+                                    <p class="ui-li-desc">Headache Management</p>
+                                    <p class="ui-li-desc">Dizziness</p>
+                                    <p class="ui-li-desc">Healthy Sleep</p>
+                                    <p class="ui-li-desc">Mood Changes</p>
+                                    <p class="ui-li-desc">Improving Memory</p>
+                                    <p class="ui-li-desc">Non-Acute Concussion/mild TBI</p>
+                                    <p class="ui-li-desc">Acute Concussion/mild TBI</p>
+                                </a>
+                            </li>
+                            <li data-role="list-divider" role="heading">
+                                <h3 class="ui-li-heading">DVBIC Regional Care Coordinator Program</h3>
+                            </li>
+                            <li>
+                                <h3 class="ui-li-heading">DVBIC Regional Care Coordinator Program</h3>
+                                <ul data-role="listview" data-theme="d" data-dividertheme="d">
+                                    <li data-role="list-divider" role="heading">VBIC Regional Care Coordinator Program</li>
+                                    <li>The DVBIC Regional Care Coordinator (RCC)
+	Program is a network of professionals
+	(nurses, social workers, counselors)
+	specializing in TBI who provide regular
+	follow-up to service members and veterans
+	with TBI (all severities) in order to improve
+	service delivery, ensure service members
+	and veterans are connected with clinical
+	and non-clinical services along the recovery
+	continuum from injury to return to duty
+	and/or reintegration into the community.
+	Each DVBIC RCC is assigned to a specific
+	geographical region of the country and is
+	also tasked with maintaining knowledge of
+	the TBI treatment and support assets of the
+	region (military, veteran and civilian)</li>
+                                    <li>RCCs:
+                                        <ul>
+                                            <li>Serve as points of contact to assess TBI resources in communities where the individual resides</li>
+                                            <li>Facilitate access to those services</li>
+                                            <li>Collaborate with the DoD and VA casemanagement programs to evaluate the appropriateness and therapeutic value of individual short-term and long-term plans of care</li>
+                                        </ul>
+                                    </li>
+                                    <li>To locate the RCC in your area, please contact DVBIC at:
+                                        <ul>
+                                            <li>Commercial toll-free: 1-800-870-9244</li>
+                                            <li>DSN: 662-6345</li>
+                                            <li>Email: <a href="mailto:info@dvbic.org">info@dvbic.org</a></li>
+                                        </ul>
+                                    </li>                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h3>Other Tools</h3>
+                        <p>Patient Health Questionaire</p>
+                        <ul data-role="listview" data-theme="d" data-dividertheme="d">
+                            <li data-role="list-divider" role="heading">
+                                <h3>Links to Other Tools</h3>
+                                <p>(not reproduced in this guide)</p>
+                            </li>
+                            <li>
+                                <a href="http://www.dcoe.health.mil" target="_blank" rel="external">
+                                    <h3>Drug Use Questionnaire (DAST-20)</h3>
+                                    <p>http://www.dcoe.health.mil</p>
+                                </a>
+                            </li>
+                            <li><a href="http://www.sciencedirect.com/science?_ob=MImg&_imagekey=B6T8V-45WYX0N-15N-1&_cdi=5096&_user=9086466&_pii=002239999390104N&_orig=search&_coverDate=10%2F31%2F1993&_sk=999629992&view=c&wchp=dGLbVzb-zSkWA&md5=39e942ba512bd4a9cd81656f714b3c06&ie=/sdarticle.pdf" target="_blank" rel="external">
+                                    <h3>Fatigue Assessment Instrument (FAI)</h3>
+                                    <p>http://www.sciencedirect.com/science?...article.pdf</p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="http://www.mapi-trust.org/services/questionnairelicensing/cataloguequestionnaires/123-fis" target="_blank" rel="external">
+                                    <h3>Fatigue Impact Scale (FIS)</h3>
+                                    <p class="ui-li-desc">http://www.mapi-trust.org/services/questionnairelicensing/cataloguequestionnaires/123-fis</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.sleep.pitt.edu/content.asp?id=1484&subid=2316" target="_blank" rel="external">
+                                    <h3>Pittsburgh Sleep Quality Index (PSQI)</h3>
+                                    <p class="ui-li-desc">http://www.sleep.pitt.edu/content.asp?id=1484&subid=2316</p>
+                                </a>
+                            </li>
+                            <li data-role="list-divider" role="heading">
+                                <h3>Links to Other Tools</h3>
+                                <p>(included in the assessments portion of this guide)</p>
+                            </li>
+
+                            <li>
+                                <a href="http://web.missouri.edu/~proste/tool/vest/Dizziness-Handicap-Inventory.pdf" target="_blank" rel="external">
+                                    <h3>Dizziness Handicap Inventory (DHI)</h3>
+                                    <p class="ui-li-desc">http://web.missouri.edu/~proste/tool/vest/Dizziness-Handicap-Inventory.pdf</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://epworthsleepinessscale.com/1997-version-ess" target="_blank" rel="external">
+                                    <h3>Epworth Sleepiness Scale (ESS)</h3>
+                                    <p class="ui-li-desc">http://epworthsleepinessscale.com/1997-version-ess</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.son.washington.edu/research/maf" target="_blank" rel="external">
+                                    <h3>Multidimensional Assessment of Fatigue (MAF)</h3>
+                                    <p class="ui-li-desc">http://www.son.washington.edu/research/maf</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://centerforneurorehabservices.org/uploads/2454/NB.Sx.Inventory.online.pdf" target="_blank" rel="external">
+                                    <h3>Neurobehavioral Symptom Inventory (NSI)</h3>
+                                    <p class="ui-li-desc">http://centerforneurorehabservices.org/uploads/2454/NB.Sx.Inventory.online.pdf</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.phqscreeners.com" target="_blank" rel="external">
+                                    <h3>Patient Health Questionnaire (PHQ-9) – Depression Assessment</h3>
+                                    <p>http://www.phqscreeners.com</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://www.ptsd.va.gov/professional/pages/assessments/ptsd-checklist.asp" target="_blank" rel="external">
+                                    <h3>PTSD Checklist (PCL-M)</h3>
+                                    <p class="ui-li-desc">http://www.ptsd.va.gov/professional/pages/assessments/ptsd-checklist.asp</p>
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

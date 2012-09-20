@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+    <title>Patient health questionnaire (PHQ-9)</title>
+    <desc>Over the last two weeks, how often have you been bothered by any of the following problems?</desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="1,2,3,4,5,6,7,8,9" />
+    </scoring>
+    <scoringrange text="None" lowscore="0" highscore="4" />
+    <scoringrange text="Mild depression" lowscore="5" highscore="9" />
+    <scoringrange text="Moderate depression" lowscore="10" highscore="14" />
+    <scoringrange text="Moderately severe depression" lowscore="15" highscore="19" />
+    <scoringrange text="Severe depression" lowscore="20" highscore="27" />
+    <skipRule questionIds="10" >
+        <skipStep questionInSpec="9">
+            <criteria questionId="1" valueLess="1" />
+            <criteria questionId="2" valueLess="1" />
+            <criteria questionId="3" valueLess="1" />
+            <criteria questionId="4" valueLess="1" />
+            <criteria questionId="5" valueLess="1" />
+            <criteria questionId="6" valueLess="1" />
+            <criteria questionId="7" valueLess="1" />
+            <criteria questionId="8" valueLess="1" />
+            <criteria questionId="9" valueLess="1" />
+        </skipStep>
+    </skipRule>
+    <special text="Consider Major Depressive Disorder" join="first">
+        <specialStep type="questionInSpec" value="1" >
+            <criteria questionId = "1" valueOver="1" />
+            <criteria questionId = "2" valueOver="1" />
+        </specialStep>
+        <specialStep type="questionInSpec" value="5" >
+            <criteria questionId = "1" valueOver="1" />
+            <criteria questionId = "2" valueOver="1" />
+            <criteria questionId = "3" valueOver="1" />
+            <criteria questionId = "4" valueOver="1" />
+            <criteria questionId = "5" valueOver="1" />
+            <criteria questionId = "6" valueOver="1" />
+            <criteria questionId = "7" valueOver="1" />
+            <criteria questionId = "8" valueOver="1" />
+            <criteria questionId = "9" valueOver="0" />
+        </specialStep>
+    </special>
+    <special text="Consider Other Depressive Disorder" join="first">
+        <specialStep  type="questionInSpec" value="1" >
+            <criteria questionId = "1" valueOver="1" />
+            <criteria questionId = "2" valueOver="1" />
+        </specialStep>
+        <specialStep  type="questionInSpec" value="4" >
+            <criteria questionId = "1" valueOver="1" />
+            <criteria questionId = "2" valueOver="1" />
+            <criteria questionId = "3" valueOver="1" />
+            <criteria questionId = "4" valueOver="1" />
+            <criteria questionId = "5" valueOver="1" />
+            <criteria questionId = "6" valueOver="1" />
+            <criteria questionId = "7" valueOver="1" />
+            <criteria questionId = "8" valueOver="1" />
+            <criteria questionId = "9" valueOver="0" />
+        </specialStep>
+        <specialStep   />
+    </special>
+    <content><![CDATA[
+                <div class="ui-header ui-bar-d">
+                    <h4 class="ui-title">PHQ-9 quick depression Assessment</h4>
+                </div>
+                <div class="ui-body ui-body-d">
+                    <h3>For initial diagnosis:</h3>
+                    <ol>
+                        <li>Patient completes PHQ-9 Quick Depression Assessment on accompanying tear-off pad</li>
+                        <li>If there are at least four ✓s in the gray highlighted section (including Questions #1 and #2), consider a depressive disorder; add score to determine severity</li>
+                        <li>
+                            <h4>Consider Major depressive Disorder</h4>
+                            <ul style="list-style:square">
+                                <li>if there are at least five ✓s in the gray highlighted section (one of which corresponds to Questions #1 or #2)</li>
+                            </ul>
+
+                            <h4>Consider Other depressive Disorder</h4>
+                            <ul style="list-style:square">
+                                <li>if there are two to four ✓s in the gray highlighted section (one of which corresponds to Question #1 or #2)</li>
+                            </ul>
+                        </li>
+                    </ol>
+                    <p>Note: Since the questionnaire relies on patient self-report, all responses should be verified by the clinician and a definitive diagnosis made on clinical grounds, taking into account how well the patient understood the questionnaire as well as other relevant information from the patient. Diagnoses of Major Depressive Disorder or Other Depressive Disorder also require impairment of social, occupational or other important areas of functioning (Question #10) and ruling out normal bereavement, a history of a Manic Episode (Bipolar Disorder), and a physical disorder, medication or other drug as the biological cause of the depressive symptoms.</p>
+
+                    <h4>To monitor severity over time for newly diagnosed patients or patients in current treatment for depression:</h4>
+                    <ol>
+                        <li>Patients may complete questionnaires at baseline and at regular intervals, e.g., every two weeks, at home and bring them in at their next appointment for scoring or they may complete the questionnaire during each scheduled appointment</li>
+                        <li>Add up three ✓s by column<br />
+				For every three: Several days = 1, More than half the days = 2, Nearly every day = 3</li>
+                        <li>Add together column scores to get a TOTAL score</li>
+                        <li>Refer to the accompanying PHQ-9 Scoring Card to interpret the TOTAL score</li>
+                        <li>Results may be included in patients’ files to assist you in setting up a treatment goal, determining degree of response as well as guiding treatment intervention</li>
+                    </ol>
+                    <ul data-role="listview" data-inset="true" data-theme="c" data-dividertheme="d">
+                        <li data-role="list-divider" role="heading">
+                            <h3 class="ui-li-heading" >PHQ-9 Scoring Card for Severity Determiniation</h3>
+                            <p class="ui-li-desc">For healthcare professional use only</p>
+                            <p class="ui-li-desc">Total Score</p>
+                        </li>
+                        <li>
+                            <h3 class="ui-li-heading">0-4</h3>
+                            <p class="ui-li-desc mtbi-font-larger">None</p>
+                        </li>
+                        <li>
+                            <h3 class="ui-li-heading">5-9</h3>
+                            <p class="ui-li-desc mtbi-font-larger">Mild depression</p>
+                        </li>
+                        <li>
+                            <h3 class="ui-li-heading">10-14</h3>
+                            <p class="ui-li-desc mtbi-font-larger">Moderate depression</p>
+                        </li>
+                        <li>
+                            <h3 class="ui-li-heading">15-19</h3>
+                            <p class="ui-li-desc mtbi-font-larger">Moderately severe depression</p>
+                        </li>
+                        <li>
+                            <h3 class="ui-li-heading">20-27</h3>
+                            <p class="ui-li-desc mtbi-font-larger">Severe depression</p>
+                        </li>
+                    </ul>
+                </div>
+	]]>
+    </content>
+
+    <questions>
+        <question
+			id="1"
+			title="1.	Little interest or pleasure in doing things"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="2"
+			title="2.	Feeling down, depressed or hopeless"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="3"
+			title="3.	Trouble falling or staying asleep, or sleeping too much"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="4"
+			title="4.	Feeling tired or having little energy"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="5"
+			title="5.	Poor appetite or overeating"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="6"
+			title="6.	Feeling bad about yourself—or that you are a failure or have let yourself or your family down"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="7"
+			title="7.	Trouble concentrating on things, such as reading the newspaper or watching television"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="8"
+			title="8.	Moving or speaking so slowly that other people could have noticed. Or the opposite—being so fidgety or restless that you have been moving around a lot more than usual"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="9"
+			title="9.	Thoughts that you would be better off dead, or of hurting yourself in some way"
+			desc=""
+			answerIds="0,1,2,3"
+                        altAnswerIds="1,2,3"
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+
+        <question
+			id="10"
+			title="10.	How difficult have these problems made it for you to do your work, take care of things at home or get along with other people?"
+			desc=""
+			answerIds="10-0,10-1,10-2,10-3"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+    </questions>
+
+    <answers>
+        <answer
+			id="0"
+			title="0 - Not at all"
+			desc=""
+			value="0"
+		/>
+        <answer
+			id="1"
+			title="1 - Several days"
+			desc=""
+			value="1"
+		/>
+        <answer
+			id="2"
+			title="2 - More than half the days"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="3"
+			title="3 - Nearly every day"
+			desc=""
+			value="3"
+		/>
+
+        <answer
+			id="10-0"
+			title="0 - Not difficult at all"
+			desc=""
+			value="0"
+		/>
+        <answer
+			id="10-1"
+			title="1 - Somewhat difficult"
+			desc=""
+			value="1"
+		/>
+        <answer
+			id="10-2"
+			title="2 - Very difficult"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="10-3"
+			title="3 - Extremely difficult"
+			desc=""
+			value="3"
+		/>
+    </answers>
+</questionare>

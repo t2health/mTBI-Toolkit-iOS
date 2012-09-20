@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items title="Patient Education" style="separated">
+	<item title="Driving Following TBI" id="dd0">
+		<item title="Conference (2009): Summary of Clinical Recommendations" id="dd" parentId="dd0" style="separated">
+			<item title="Introduction" id="dd-intro" parentId="dd">
+				<item title="Summary" parentId="dd-intro">
+					<![CDATA[
+					<p>This fact sheet summarizes the clinical recommendations contained in the Driving Following Traumatic Brain Injury: Summary of Clinical Recommendations report that is a result of the DCoE Driving Evaluations After TBI Conference.</p>
+	
+					<ul>
+						<li><strong>Goal: To ensure that those who have sufficiently recovered from all severities of TBI have the opportunity to safely drive government and privately owned vehicles in accordance with federal and state guidelines</strong></li>
+						<li>Safe operation of a motor vehicle is a complex task requiring interaction of operational, cognitive and higher executive functions and perceptual abilities</li>
+						<li>A TBI can disrupt the complex interplay of functions</li>
+						<li>Individuals with all severities of TBI may be at risk for developing symptoms that affect fitness to drive</li>
+						<li>A driving evaluation is a two-step process—Step One: Driving Screening and Step Two: Driving Assessment</li>
+						<li>A driving screening should be considered for every individual with a TBI</li>
+						<li>A driving screening may be performed by any qualified clinician who has experience and knowledge to evaluate those domains listed on the next page in Step One: Driving Screening</li>
+						<li>A comprehensive driving assessment is usually reserved for patients whose driving screening results raise concerns or based on clinical judgment, is warranted</li>
+						<li>A comprehensive driving assessment is performed by clinicians with driver rehabilitation training and education and TBI experience</li>
+					</ul>
+					]]>
+				</item>
+	
+				<item title="Mild TBI Symptoms that may affect Driving" parentId="dd-intro">
+					<![CDATA[
+					<p>(not all-inclusive)</p>
+					<ul>
+						<li>Attention/concentration difficulties</li>
+						<li>Memory difficulties</li>
+						<li>Irritability</li>
+						<li>Challenges with executive functioning</li>
+						<li>Reasoning and problem solving
+							<ul>
+								<li>Organizing, planning and self-monitoring</li>
+								<li>Emotional regulation</li>
+							</ul>
+						</li>
+					</ul>
+					]]>
+				</item>
+	
+				<item title="Moderate TBI Symptoms that may affect Driving" parentId="dd-intro">
+					<![CDATA[
+					<p>(not all-inclusive)</p>
+					<ul>
+						<li>Mild TBI symptoms in addition to
+							<ul>
+								<li>Visual impairment</li>
+								<li>Paresis</li>
+								<li>Plegia</li>
+								<li>Post-traumatic seizures</li>
+							</ul>
+						</li>
+					</ul>
+					]]>
+				</item>
+	
+				<item title="What is a driver rehabilitation specialist?" parentId="dd-intro"><![CDATA[
+					<p>A driver rehabilitation specialist is one who plans, develops, coordinates and implements driving services for individuals with disabilities. Driver rehabilitation specialists are often occupational therapists, physical therapists, kinesiotherapists, psychologists and driver education specialists who undergo additional training in driver rehabilitation. While many driver rehabilitation specialists may hold a specific certification or are in the process of obtaining the necessary education and experience, certification is not required to practice driver rehabilitation.</p>
+				]]></item>
+	
+				<item title="Where are driver rehabilitation specialists located?" parentId="dd-intro"><![CDATA[
+					<p>Several military treatment facilities, hospitals and clinics throughout the VA and DoD have driver rehabilitation specialists on staff and may offer driver rehabilitation services. To determine if your facility offers these services or if your patient needs a referral outside of your facility, contact your rehabilitation services department.</p>
+				]]></item>
+			</item>
+
+			<item title="Steps" id="steps" parentId="dd">
+				<item title="Step One: Driving Screening" parentId="steps">
+					<![CDATA[
+					<p>Performed by any clinician with experience and knowledge to evaluate the following areas:</p>
+					<ul>
+						<li>Visual acuity</li>
+						<li>Visual fields</li>
+						<li>Visual perception</li>
+						<li>Visual processing</li>
+						<li>Visuospatial skills</li>
+						<li>Selective and divided attention</li>
+						<li>Executive skills</li>
+						<li>Fatigue</li>
+						<li>Pain</li>
+						<li>Coordination</li>
+						<li>Motor and sensory function</li>
+					</ul>
+
+					<p>A comprehensive driving assessment may be considered for those individuals whose driving screening results raise concerns or is warranted based on clinical judgment.</p>
+
+					]]>
+				</item>
+
+				<item title="Step Two: Comprehensive Driving Assessment" parentId="steps">
+					<![CDATA[
+					<p>Performed by clinician with driver rehabilitation training and education and TBI experience, often times, referred to as a driver rehabilitation specialist</p>
+
+					<ul>
+						<li>Medical and driving history
+							<ul>
+								<li>Frequency of driving</li>
+								<li>Usual location of driving</li>
+								<li>Driving history pre- and post-injury</li>
+								<li>Self-reported violations/crashes</li>
+								<li>Verification of valid driver’s license</li>
+							</ul>
+						</li>
+						<li>Vision
+							<ul>
+								<li>Visual fields</li>
+								<li>Visual acuity</li>
+								<li>Contrast sensitivity</li>
+								<li>Depth perception</li>
+							</ul>
+						</li>
+						<li>Motor
+							<ul>
+								<li>Complex reaction time</li>
+								<li>Musculoskeletal screen</li>
+							</ul>
+						</li>
+						<li>Cognitive
+							<ul>
+								<li>Orientation</li>
+								<li>Visual perception</li>
+								<li>Constructional ability
+								<li>Memory</li>
+								<li>Calculation skills</li>
+								<li>Reasoning and judgment</li>
+								<li>Visual attention</li>
+								<li>Visual scanning/search</li>
+								<li>Processing speed</li>
+								<li>Mental flexibility</li>
+								<li>Executive functioning</li>
+								<li>Directed attention</li>
+								<li>Sign recognition/road knowledge</li>
+							</ul>
+						</li>
+						<li>Performance
+							<ul>
+								<li>On the road</li>
+								<li>Simulation (if available)</li>
+							</ul>
+						</li>
+					</ul>
+					]]>
+				</item>
+			</item>
+		</item>
+	</item>
+
+	<item title="Management Excersises" id="me" style="separated">
+		<item title="Headache and Neck Pain" id="headacheEx" parentId="me" style="separated">
+			<item title="Concussion/Mild Traumatic Brain Injury Rehabilitation: Headache and Neck Pain" id="headacheEx-group" parentId="headacheEx">
+
+				<item title="Introduction" parentId="headacheEx-group"><![CDATA[
+					<p>After a blast exposure, jump injury, car accident or other way that you might get a head injury, your neck may have experienced some trauma as well. Some people recover quickly from this type of injury, while others continue to have pain or stiffness in their necks related to poor posture. This neck pain can become head pain.</p>]]>
+				</item>
+
+				<item title="Ice/Heat" parentId="headacheEx-group"><![CDATA[
+					<p>Ice your neck and head at least two to three times a day. Leave it there as you relax for about 20 minutes (or until the pack is no longer cold). Heat is good for relaxing muscles. You can use a warm gel pack. A 10–20 minute shower works just as well. Most respond to ice better than heat. Try both to see which one works best for you. When using heat or ice with neck stretches, use heat to relax muscles before stretching, then use ice after stretching to calm the muscles.</p>
+				]]></item>
+
+				<item title="Neck Stretches" id="neckStretches" parentId="headacheEx-group" uri="t2mtbi://workflow/neck_stretches_workflow" />
+
+
+				<item title="Sleep Posture" id="sleepPosture" parentId="headacheEx-group">
+					<![CDATA[
+					<style type="text/css">
+					.container {
+						color: black;
+						padding: 5px;
+						background-color: white;
+						border: 2px solid black;
+						text-align: center;
+						margin-bottom: 15px;
+					}
+
+					.container h4 {
+						margin: 0px;
+						padding: 0px;
+					}
+					</style>
+
+					<p>Consider how you sleep: on your stomach, back, side? Now take away the pillow, bring your arms to your sides, and sit up. How does your neck position look? Is it twisted and strained? Does is look or feel like a good position to keep your neck for six to eight hours every night? And, keep in mind, flipping to the other side doesn’t make it &quot;even!&quot;</p>
+					<p><strong>Directions:</strong> First, lying on your side is where to start. Then, consider your pillow. Neutral is the key.</p>
+					<p>Next, as you lie on your side on your neutral pillow, pull your entire body completely straight. Once your neck is straight, rest your arms, bend your knees, relax your body to a comfortable position. RECHECK your neck position. Most people tend to curl up once they relax. If you have tucked your chin, pull your neck back up. This might feel awkward to start, but will become part of your bedtime routine and natural after about one to two weeks. Here’s how it looks.</p>
+
+					<div class="container">
+						<h4>Just Right</h4>
+						<img src="file:///android_asset/img/sleep_posture/just_right.png" style="width:100%" />
+					</div>
+
+					<div class="container">
+						<h4>Too Fluffy</h4>
+						<img src="file:///android_asset/img/sleep_posture/too_fluffy.png" style="width:100%" />
+					</div>
+
+					<div class="container">
+						<h4>Too Flat</h4>
+						<img src="file:///android_asset/img/sleep_posture/too_flat.png" style="width:100%" />
+					</div>
+
+					]]>
+				</item>
+
+				<item title="Massage" parentId="headacheEx-group">
+					<![CDATA[
+					<p>Massages can be relaxing. Ask for a therapeutic massage. Explain that you get headaches from neck tension. Relax and enjoy.</p>
+					]]>
+				</item>
+
+				<item title="Medication" parentId="headacheEx-group">
+					<![CDATA[
+					<p>Be sure to tell your health care provider about all of the medications and supplements you are taking. Consult with a health care provider prior to using any OTC medications. Be advised that OTC medications may make your headaches worse. If you are prescribed headache and/or neck pain medication, take it only as directed and be aware that it may take two to four weeks to show improvement.</p>
+					]]>
+				</item>
+
+				<item title="What Next?" parentId="headacheEx-group">
+					<![CDATA[
+					<p>If these conservative approaches are not effective after two to four weeks of consistent use, talk to your health care provider.</p>
+					]]>
+				</item>
+			</item>
+		</item>
+
+
+		<item title="Head Injury and Dizziness" id="diizinessEx" parentId="me" style="separated">
+			<item title="Concussion/Mild Traumatic Brain Injury Rehabilitation: Head Injury and Dizziness" id="diizinessEx-group" parentId="diizinessEx">
+				<item title="Why am I Dizzy?" parentId="diizinessEx-group">
+					<![CDATA[
+					<p>Dizziness is one of the symptoms that you may experience after a head injury.
+					Often this is related to a problem with the inner ear, which is where balance is
+					controlled. The dizziness may also be related to other problems with the inner
+					ear or problems with your neck. It is common to also experience ringing/
+					buzzing in your ears, ear pain, hearing loss, neck pain/stiffness or headaches.</p>
+
+					]]>
+				</item>
+
+				<item title="What Can I Do?" parentId="diizinessEx-group">
+					<![CDATA[
+					<ol>
+						<li><button onclick="document.location.href='t2mtbi://workflow/neck_stretches_workflow'; return false;">Neck stretches</button></li>
+						<li>Modify activities. If your dizziness is brought on by a change in position for example, sitting to standing, bending forward, etc., move slowly and allow yourself a minute in the new position before moving again. Avoid sleeping on the &quot;bad&quot; side.</li>
+					</ol>
+					<button onclick="document.location.href='t2mtbi://itemsbrowser/education/sleepPosture'; return false;">Change sleep position</button>
+					<p><strong>Change sleep position</strong>. If you are dizzy getting out of bed in the morning, consider sleeping in a semi-recumbent position.</p>
+					]]>
+				</item>
+
+				<item title="At Home Vestibular Rehabilitation Exercises" id="vestibularRehabEx" parentId="diizinessEx-group" uri="t2mtbi://workflow/vestibular_excersises_workflow" />
+
+				<item title="What to Expect?" parentId="diizinessEx-group">
+					<![CDATA[
+					<p>The vestibular rehabilitation exercises will likely bring on your typical
+					dizziness symptoms, but over time these exercises help train your body to
+					overcome the dizziness. It is best to do these exercises on your bed right before
+					bedtime. If your symptoms get worse after these exercises and do not return
+					to baseline within one to two hours, consult your health care provider.</p>
+
+					]]>
+				</item>
+
+				<item title="What Next?" parentId="diizinessEx-group">
+					<![CDATA[
+					<p>If these exercises do not help your dizziness in about two weeks, talk to
+					your health care provider, who will evaluate your dizziness and set up a
+					treatment plan.</p>
+
+					]]>
+				</item>
+			</item>
+		</item>
+
+
+
+		<item title="Healthy Sleep" parentId="me">
+			<![CDATA[
+			<h3>Concussion/Mild Traumatic Brain Injury Rehabilitation: Healthy Sleep</h3>
+			<p>Getting a good night’s sleep has to do with many factors. The following are
+			helpful hints for good sleep hygiene and treatment of insomnia.</p>
+			<ol>
+				<li>No caffeine-containing foods or drinks three hours prior to bedtime</li>
+				<li>No heavy exercise three hours prior to bedtime</li>
+				<li>No alcohol, nicotine or heavy meals within three hours of bedtime</li>
+				<li>Avoid bright light exposure near bedtime</li>
+				<li>Keep regular bedtime and wake-up hours, even on the weekend</li>
+				<li>Foster a quiet, pleasant sleep environment—a cool room and soft lighting</li>
+				<li>Have a relaxing bedtime routine—warm soak in the tub or warm</li>
+					shower, relaxing thoughts, meditation, progressive muscle relaxation exercises or Yoga</li>
+				<li>Stop work or TV viewing of disturbing or stimulating television shows at
+				least one hour before bedtime</li>
+				<li>Use of the bed is for sleep and sex, which means no watching TV, work
+				or reading</li>
+				<li>Go to bed only when sleepy</li>
+				<li>Go to another room if sleep does not come within 20–30 minutes</li>
+				<li>Get up at the same time each morning</li>
+				<li>Do NOT take naps</li>
+				<li>If you have been prescribed sleep medications, take them as instructed
+				and at the same time every night</li>
+				<li>Consult with a health care provider before taking any OTC medications
+				or supplements</li>
+			</ol>
+
+			]]>
+		</item>
+
+		<item title="Mood Changes" parentId="me">
+			<![CDATA[
+			<h3>Concussion/Mild Traumatic Brain Injury Rehabilitation: Mood Changes</h3>
+
+			<p><strong>
+				Having trouble concentrating?<br/>
+				Easily irritated or on the edge?<br/>
+				Feeling overwhelmed, anxious, sad or depressed?</strong></p>
+
+				<ul>
+				<li><strong>Understand that this is OK to have these feelings</strong>. There are
+				things you can do to help manage these feelings; take deep
+				breaths and know that the feeling will pass; do not focus on
+				your worries or troubles; do something you enjoy</li>
+				<li><strong>This is normal and very common after a concussion/mild
+				traumatic brain injury.</strong> Fortunately, these feelings get better
+				with time</li>
+				<li><strong>Do not call yourself bad names or put yourself down.</strong> You are
+				not your concussion/mild traumatic brain injury; life will get
+				better; stay positive</li>
+				<li><strong>Talk to someone you love or trust about these feelings.</strong> Many
+				people have felt the same way you have at some point in time;
+				don’t be afraid to express yourself; your health care provider
+				can also help, so be sure to share your feelings with him or her
+				<li><strong>If you have thoughts or feelings of hurting yourself or
+				others, seek emergency care.</strong> You can contact the
+				Veterans Administration Suicide Prevention Hotline:
+				<a href="tel:18002738255">800-273-TALK (8255)</a>; this number is established for both
+				veterans and active duty personnel
+				<li>Symptoms associated with TBI are similar to psychological
+				stress. If these mood changes are causing problems at work or
+				home, seek help</li>
+			]]>
+		</item>
+
+		<item title="Improving Memory" parentId="me">
+			<![CDATA[
+			<h3>Concussion/Mild Traumatic Brain Injury Rehabilitation: 10 Ways to Improve Your Memory</h3>
+			<ol>
+				<li>Get seven to eight hours of sleep. Keep a quiet, cool environment; go to sleep at the same time nightly; no napping; avoid high energy video games, movies and television prior to bedtime; avoid exercise before bedtime</li>
+				<li>Write it down. Keep a notebook and pen with you and write things down, it will keep you on track and help remind you of important things, like taking your medication; day planners or small calendars also help</li>
+				<li>Avoid alcohol, tobacco, excessive caffeine and energy drinks. These increase sleep problems, anxiety, blood pressure levels and overall stress</li>
+				<li>Prioritize. Make a list of things that need to be taken care of, place them in order of importance and check them off when completed</li>
+				<li>Get a routine. Put your keys in the same spot every day; park in the same areas; being consistent helps memory and lowers anxiety</li>
+				<li>Keep mentally active. Work crossword puzzles; read a book; play a board or card game like solitaire or concentration; try to learn something new every day</li>
+				<li>Decrease your stress level. Don’t take on too much at one time; keep stress to a minimum; stress hormones can damage your brain and add to depression and anxiety; learn to say “no” when feeling overwhelmed; it’s also OK to ask for help when you need it; make time for you</li>
+				<li>Stay physically active. Take the dog for a walk; take the stairs instead of the elevator; small spurts of exercise add up; the higher blood flow to your brain helps promote cell growth; exercising is also a mood booster and helps with mental clarity</li>
+				<li>Feed your brain. Eat high quality foods at regular intervals; fish, colorful fruits and veggies, milk, eggs, whole grain breads, nuts and beans all help to keep the brain and body healthy</li>
+				<li>Avoid further brain injury. Consider swimming, walking or running instead of playing football or boxing; wear a helmet when riding your bike or motorcycle; drive safely; stay sober</li>
+			</ol>
+			]]>
+		</item>
+
+		<item title="Non-Acute Concussion/Mild TBI" id="non-accute" parentId="me">
+			<item title="What is a Concussion?" parentId="non-accute">
+			<![CDATA[
+				<ul>
+					<li>Concussion is an injury from a hit, blow, or jolt to the head that briefly knocks you out (loss of consciousness) or makes you confused or “see stars” (change in consciousness)</li>
+					<li>It can result in headaches, irritability, fatigue, balance difficulties, sleep disturbance, dizziness, ringing in the ears, blurred vision, concentration or memory difficulties and other problems</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="Have I Had a Concussion?" parentId="non-accute">
+			<![CDATA[
+				<ul>
+					<li>Your assessment indicates that you may have had a concussion/mild TBI</li>
+					<li>It is important to understand that “mTBI”—mild Traumatic Brain Injury—is just another way of saying “concussion”</li>
+					<li>We refer to your injury as a concussion because we want to make sure you realize that it’s different from the other more severe “traumatic brain injuries” (TBIs)</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="How Long Does it Last?" parentId="non-accute">
+			<![CDATA[
+				<ul>
+					<li>Almost everyone recovers from concussion within hours to days</li>
+					<li>Sometimes service members are concerned that concussions sustained during deployment will lead to lasting effects after return home, but in fact, concussions usually heal quickly</li>
+					<li>Occasionally, symptoms may persist longer than expected</li>
+					<li>The time it takes to heal depends on the individual, the nature of the injury, the number of concussions and other conditions that may exist</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="What Else is Important?" parentId="non-accute">
+			<![CDATA[
+				<ul>
+					<li>Persistent symptoms post-deployment may result from physical injuries or other significant events or conditions, such as sleep deprivation and operational stress reactions</li>
+					<li>Conditions such as post-traumatic stress (PTS), depression, anxiety and alcohol use can make it more difficult to fully recover</li>
+					<li>Talk to your provider about significant events you experienced in theater and any symptoms you have</li>
+					<li>Communicate accurately detailed information about all injury events—the sooner you do this the better</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="What Will Help Your Recovery?" parentId="non-accute">
+			<![CDATA[
+				<ul>
+					<li>Talk to your provider about the problems you’re experiencing</li>
+					<li>Take only medications prescribed for you, take them as directed and report any side effects</li>
+					<li>Abstain from alcohol and drug use</li>
+					<li>Limit your use of caffeine and “energy-enhancing” products</li>
+					<li>Avoid contact sports that can lead to another concussion</li>
+					<li>Avoid aggressive driving that can lead to more severe traumatic brain injuries</li>
+					<li>Get plenty of sleep every day—at least seven to eight hours</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="Recovery" parentId="non-accute">
+			<![CDATA[
+				<ul>
+					<li>Full recovery is expected even if you’ve had more than one concussion during deployment; however, healing may take a little more time with each additional concussion</li>
+					<li>It’s important to know that treatment is available for your post-deployment health problems, including those related to concussion</li>
+					<li>Most health problems resulting from concussion or deployment can be addressed by a primary care provider who is supported by a team of specialists</li>
+					<li>Speak with your provider about each of your health concerns</li>
+					<li>Understand that recovering from a concussion may take longer if you have other medical conditions, such as depression, PTS, sleep problems or are using alcohol or drugs</li>
+				</ul>
+
+				<h3>The most important things you can do:</h3>
+				<ul>
+					<li>Relax and give yourself time to heal</li>
+					<li>Get plenty of sleep and rest</li>
+					<li>Be honest with your provider</li>
+					<li>Avoid further head injury</li>
+					<li>Expect a full recovery</li>
+				</ul>
+				]]>
+			</item>
+		</item>
+
+		<item title="Acute Concussion/Mild TBI" id="accute" parentId="me">
+			<item title="What Happened to Me?" parentId="accute">
+				<![CDATA[
+					<p>Your assessment indicates that you have had a concussion, which is also called a “mild traumatic brain injury” (mTBI)</p>
+				]]>
+			</item>
+
+			<item title="What is a Concussion?" parentId="accute">
+				<![CDATA[
+				<ul>
+					<li>Concussion is an injury from a hit, blow, or jolt to the head that briefly knocks you out (loss of consciousness) or makes you confused or “see stars” (change in consciousness)</li>
+					<li>It can result in headaches, irritability, fatigue, balance difficulties, sleep disturbance, dizziness, ringing in the ears, blurred vision, concentration or memory difficulties and other problems</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="How Long Does it Last?" parentId="accute">
+				<![CDATA[
+				<ul>
+					<li>Almost everyone recovers from concussion within hours to days</li>
+					<li>Sometimes service members are concerned that concussions sustained during deployment will lead to lasting effects after return home, but in fact, concussions usually heal quickly</li>
+					<li>Occasionally, symptoms may persist longer than expected</li>
+					<li>The time it takes to heal depends on the individual, the nature of the injury, the number of concussions and other conditions that may exist</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="Recovery" parentId="accute">
+				<![CDATA[
+				<ul>
+					<li>Recovery is different for each person and depends on the nature of the injury</li>
+					<li>The most important thing you can do is to allow time for your brain to heal</li>
+					<li>Be honest about your symptoms and let your</li>
+				<ul>
+				]]>
+			</item>
+
+			<item title="Why Does as Concussion Affect Return to Duty?" parentId="accute">
+				<![CDATA[
+				<ul>
+					<li>Often after a concussion, service members think they are OK, yet they’ve actually had an injury that needs attention</li>
+					<li>Symptoms after concussion reduce your effectiveness, which could impair your performance and endanger your mission
+						<ul>
+							<li>These temporary impairments resolve fastest when your brain gets rest (similar to resting a sprained ankle)</li>
+						</ul>
+					</li>
+					<li>If you get another concussion before healing from the first one, you are at greater risk for a more serious injury</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="What Are your Medical Instructions Now That You Have Been Diagnosed With a Concussion?" parentId="accute">
+				<![CDATA[
+				<ul>
+					<li>You have already reported it and been checked out
+						<ul>
+							<li>Be honest with your providers</li>
+						</ul>
+					</li>
+					<li>Rest
+						<ul>
+							<li>Avoid exerting yourself physically (working, heavy lifting, exercising, etc.)</li>
+							<li>Avoid mental exertion (writing reports, thinking, activities requiring you to pay attention, etc.)</li>
+						</ul>
+					</li>
+					<li>Return to Duty
+						<ul>
+							<li>Expect to recover fully and RTD</li>
+							<li>Your provider will continue to evaluate you and will determine when it’s safe for you to RTD</li>
+						</ul>
+					</li>
+				<ul>
+				]]>
+			</item>
+
+			<item title="Warning Signs" parentId="accute">
+				<![CDATA[
+				<p>If you begin to experience any of the following, seek immediate medical attention:</p>
+				<ul>
+					<li>Worsening headache</li>
+					<li>Worsening balance</li>
+					<li>Double vision or other vision changes</li>
+					<li>Decreasing level of alertness </li>
+					<li>Increased disorientation </li>
+					<li>Repeated vomiting </li>
+					<li>Seizures </li>
+					<li>Unusual behavior</li>
+					<li>Amnesia/Memory problems</li>
+				</ul>
+				]]>
+			</item>
+
+			<item title="Healing From a Concussion" parentId="accute">
+				<![CDATA[
+				<h2>Things that Improve healing</h2>
+				<ul>
+					<li>Maximize downtime/rest during the day</li>
+					<li>Get plenty of sleep at night</li>
+					<li>Protect yourself from another concussion: avoid contact sports, combatives, etc.</li>
+					<li>Let others know that you’ve had a concussion so they can watch out for you</li>
+					<li>Return immediately to your medical provider if you’re feeling worse or experiencing any of the warning signs</li>
+				</ul>
+
+				<h2>Things that Impair healing</h2>
+				<ul>
+					<li>Another concussion before healing from the first one</li>
+					<li>Alcohol and drug use </li>
+					<li>Inadequate sleep (made worse by caffeine or “energy-enhancing” products)</li>
+					<li>Aspirin, ibuprofen and other OTC pain medications unless instructed by your doctor</li>
+					<li>Sleeping aids and sedatives unless instructed by your doctor</li>
+				</ul>
+				]]>
+			</item>
+		</item>
+	</item>
+</items>

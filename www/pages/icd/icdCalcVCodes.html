@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>mTBI - V-Coding</title>
+ <!--        <link rel="stylesheet" href="../../jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="../../jquery/mtbi.css" />
+
+        <link rel="shortcut icon" href="../../favicon.ico" />
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+        <link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+        <script type="text/javascript" charset="utf-8" src="../../phonegap-1.0.0.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/override.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery.mobile-1.0b3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/main.js"></script>
+    </head>
+    <body>
+        <div data-role="page" id="icdVCodes" data-title="mTBI - V" data-theme="b">
+            <div data-role="header" data-theme="d">
+                <h1>V-Coding</h1>
+                <a href="../../main.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            </div>
+            <div data-role="content" data-theme="d" >
+
+                <div class="ui-header ui-bar-d">
+                    <h3 class="ui-title">V-Code Calculator</h3>
+                </div>
+                <div class="ui-body ui-body-b">
+                    <div data-role="fieldcontain">
+                        <label for="vcode" id="lblVCode">V-Code:</label>
+                        <input type="text" name="vcode" id="vcode" value="" style="font-size:120%;" readonly="readonly"/>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="select-related" class="select">Injury related to global war on terrorism?</label>
+                        <select name="select-related" id="select-related" onchange="calcVCode();">
+                            <option value="unknown">Unknown</option>
+                            <option value="yes">Yes</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="select-severity" class="select">Level of Severity</label>
+                        <select name="select-severity" id="select-severity" onchange="calcVCode();">
+                            <option value="mild">Mild</option>
+                            <option value="moderate">Moderate</option>
+                            <option value="severe">Severe</option>
+                            <option value="penetrating">Penetrating</option>
+                            <option value="unknown" selected="selected">Unknown</option>
+                        </select>
+                    </div>
+                    <div data-role="fieldcontain">
+                        <label for="history" class="select">Personal history of traumatic brain injury NOT otherwise specified:</label>
+                        <select name="history" id="history" data-role="slider" onchange="calcVCode();">
+                            <option value="off">No</option>
+                            <option value="on">Yes</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="ui-bar ui-bar-d">
+                </div>
+
+                <ul data-role="listview" data-theme="d" data-dividertheme="d" data-inset="true">
+                    <li data-role="list-divider" role="heading">
+                        <h3>V-Code Tables</h3>
+                    </li>
+                    <li>
+                        <h3>Injury Related to Global War on Terrorism</h3>
+                        <ul data-role="listview" data-theme="d" data-dividertheme="d" data-inset="true">
+                            <li data-role="list-divider" role="heading">
+                                <h3>Injury Related to Global War on Terrorism</h3>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_1</h3>
+                                <p class="mtbi-font-larger">Unknown severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_2</h3>
+                                <p class="mtbi-font-larger">Mild severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_3</h3>
+                                <p class="mtbi-font-larger">Moderate severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_4</h3>
+                                <p class="mtbi-font-larger">Severe severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_5</h3>
+                                <p class="mtbi-font-larger">Penetrating severity</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-role="list-divider" role="heading">
+                        <h3>No Injury Related to Global War on Terrorism</h3>
+                        <ul data-role="listview"  data-theme="d" data-dividertheme="d" data-inset="true">
+                            <li data-role="list-divider" role="heading">
+                                <h3>No Injury Related to Global War on Terrorism</h3>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_6</h3>
+                                <p class="mtbi-font-larger">Unknown severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_7</h3>
+                                <p class="mtbi-font-larger">Mild severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_8</h3>
+                                <p class="mtbi-font-larger">Moderate severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_9</h3>
+                                <p class="mtbi-font-larger">Severe severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_A</h3>
+                                <p class="mtbi-font-larger">Penetrating severity</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-role="list-divider" role="heading">
+                        <h3>Unknown If Injury Related to Global War on Terrorism</h3>
+                        <ul data-role="listview"  data-theme="d" data-dividertheme="d" data-inset="true">
+                            <li data-role="list-divider" role="heading">
+                                <h3>Unknown If Injury Related to Global War on Terrorism</h3>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_B</h3>
+                                <p class="mtbi-font-larger">Unknown severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_C</h3>
+                                <p class="mtbi-font-larger">Mild severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_D</h3>
+                                <p class="mtbi-font-larger">Moderate severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_E</h3>
+                                <p class="mtbi-font-larger">Severe severity</p>
+                            </li>
+                            <li>
+
+                                <h3>V15.52_F</h3>
+                                <p class="mtbi-font-larger">Penetrating severity</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li data-role="list-divider" role="heading">
+                        <h3>Personal history of traumatic brain injury NOT otherwise specified</h3>
+                        <ul data-role="listview" data-theme="d" data-dividertheme="d" data-inset="true">
+                            <li data-role="list-divider" role="heading" data-theme="d">
+                                <h3>Personal history of traumatic brain injury NOT otherwise specified</h3>
+                            </li>
+                            <li>
+                                <h3>V15.52_0</h3>
+                                <p class="mtbi-font-larger">No personal history of traumatic brain injury NOT otherwise specified</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

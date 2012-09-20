@@ -1,0 +1,235 @@
+
+body {
+    color: #dddddd;
+    background:#0080dd url(backgrounds/star_bg.jpg) top left;
+    
+    background-repeat: repeat-x;
+}
+/*  Special Skinning 
+.ui-body-f, .ui-body-f input, .ui-body-f select, .ui-body-f textarea, .ui-body-f button, 
+.ui-body-g, .ui-body-g input, .ui-body-g select, .ui-body-g textarea, .ui-body-g button {
+    font-family: Helvetica, Arial, sans-serif
+}
+.ui-body-f, .ui-bar-f, .ui-btn-up-f, .ui-btn-up-f a.ui-link-inherit {
+    background: none;
+    color: #dddddd;
+    text-shadow:rgba(32,32,32,0.8) 0px 1px 0px;
+}
+.ui-body-g, .ui-bar-c, .ui-btn-up-g, .ui-btn-up-g a.ui-link-inherit {
+    background: none;
+    color: #dddddd;
+    text-shadow:rgba(32,32,32,0.8) 0px 1px 0px;
+}
+.ui-bar-f {
+    background-color: rgba(0,0,0,0.3);
+}
+.ui-btn-down-f {
+    background: rgba(255,255,255,0.4);
+    color: #dddddd;
+    text-shadow:rgba(32,32,32,0.4) 0px 1px 0px;
+}
+.ui-btn-down-f  a.ui-link-inherit, .ui-btn-hover-f  a.ui-link-inherit{
+    color: #dddddd;
+}
+.ui-btn-hover-f {
+    background: rgba(255,255,255,0.3);
+    color: #dddddd;
+    text-shadow:rgba(32,32,32,0.8) 0px 1px 0px;
+}
+*/
+/* End Special Skin */
+
+.metadata {
+  font-size: 80%;
+  color: #999;
+}
+
+.mtbi-outer-rounded {
+    background-color: rgba(0,0,0,0.4);
+    border:solid 1px white;
+    -webkit-border-radius:0.4em;
+    border-radius:0.4em;
+    -moz-border-radius: 0.4em;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.mtbi-panel-rounded {
+    border:solid 4px rgba(0,0,0,0.25);
+    -webkit-border-radius:0.4em;
+    border-radius:0.4em;
+    -moz-border-radius: 0.4em;
+    padding: 2px;
+    overflow: hidden;
+}
+
+
+.mtbi-inner-rounded {
+    background-color: #b8cad3;
+    border:solid 1px #1d406e;
+    -webkit-border-radius:0.2em;
+    border-radius:0.2em;
+    -moz-border-radius: 0.2em;
+    margin: 2px 2px 2px 2px;
+}
+
+.mtbi-shaded {
+    background-color: #dddddd;
+}
+
+.mtbi-white {
+    color: white;
+    text-shadow: rgba(0,0,0,0.5) 0px 1px 1px;
+}
+
+.mtbi-center-text {
+    text-align: center;
+}
+
+.mtbi-block {
+    display: block;
+}
+
+.mtbi-block-full {
+    display: block;
+    width:100%;
+    text-align: center;
+}
+.mtbi-shade-background {
+    background-color: rgba(0,0,0,0.2);
+}
+.mtbi-font-large {
+    font-size: 110%;
+}
+.mtbi-font-larger {
+    font-size: 120%;
+}
+.mtbi-font-small {
+    font-size: 90%;
+}
+.mtbi-font-smaller {
+    font-size: 80%;
+}
+.mtbi-top-buffer {
+    margin-top: 5px;
+}
+div.mtbi-coding {
+    padding-left:3.5em;
+    text-indent: -3.5em;
+}
+span.mtbi-codes {
+    text-align: right;
+    display:inline-block;
+    width: 3.5em;
+    font-weight: bold;
+}
+span.mtbi-codeDesc {
+    padding-left:5px;
+}
+
+.ui-field-contain {
+    padding: 0.2em 0;
+}
+.ui-controlgroup-vertical a.ui-slider-handle.ui-btn { 
+    margin-top:-15px;
+    margin-left:-15px;
+    border-bottom-width: 1px; 
+}
+/*
+LIST TWEAKS
+*/
+#icdCodeListList .ui-li-desc, #icdCodeListList .ui-li-heading {
+    word-wrap: normal;
+    white-space: normal;
+    overflow: visible;
+}
+ul.ui-listview .ui-li-desc, ul.ui-listview .ui-li-heading {
+    word-wrap: normal;
+    white-space: normal;
+    overflow: visible;
+}
+#cpgList .ui-li-desc, #cpgList .ui-li-heading {
+    word-wrap: normal;
+    white-space: normal;
+    overflow: visible;
+}
+#mainList .ui-li-desc, #mainList .ui-li-heading {
+    word-wrap: normal;
+    white-space: normal;
+    overflow: visible;
+}
+
+.arrowDownRight {
+    
+    background-image: url(backgrounds/arrow_down_white.png);
+    height: 60px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.arrowDownMiddle {
+    background-image: url(backgrounds/arrow_down_white.png);
+    height: 60px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+.arrowDownLeft {
+    background-image: url(backgrounds/arrow_down_white.png);
+    height: 60px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+/* center answers  */
+.likert1-10 .ui-controlgroup-controls {
+               text-align: center;
+}
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-10 .ui-controlgroup-label {
+       width: 100%;
+}
+
+/* jqm tries to put labels next to controls, so we need to override their settings. */
+.likert1-10 .ui-controlgroup-controls {
+       width: 100%;
+}
+/* set individual button widths and text alignment */
+.likert1-10 label.ui-btn{
+    width:10%;
+    text-align: center;
+}
+/* reduce padding on 1-10s, so they fit on one line.  works like a charm. */
+.likert1-10 .ui-btn-inner {
+        padding-left: 9px;
+       padding-right: 9px;
+}
+
+.minLabel, .maxLabel {
+    width: 50%;
+    display: inline-block;
+}
+.minLabel {
+    text-align: left;
+}
+.maxLabel {
+    text-align: right;
+}
+
+img.examplePhoto {
+    width:100%;
+    max-width: 320px;
+    -moz-border-radius:         2em;
+    -webkit-border-radius:     2em;
+    border-radius:             2em;
+}
+
+.container {
+    text-align: center;
+    border:solid 2px white;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    -moz-border-radius:         0.5em;
+    -webkit-border-radius:     0.5em;
+    border-radius:             0.5em;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>mTBI - ICD - Late effect Coding</title>
+ <!--        <link rel="stylesheet" href="../../jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="../../jquery/mtbi.css" />
+
+        <link rel="shortcut icon" href="../../favicon.ico" />
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+        <link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+        <script type="text/javascript" charset="utf-8" src="../../phonegap-1.0.0.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/override.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery.mobile-1.0b3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/main.js"></script>
+
+    </head>
+    <body>
+        <div data-role="page" id="icdCodingPage" data-title="mTBI - ICD - Late effect Coding"  data-theme="b" data-dividertheme="d" >
+            <div data-role="header" data-theme="b">
+                <h1>ICD-9 Coding</h1>
+                <a href="../../main.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            </div>
+            <div data-role="content" id="icdCodes">
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3>Late effect Code (must be used with all follow-up TBI encounters)</h3>
+                    </li>
+                    <li>
+                        <h3 class="ui-li-heading">905.0</h3>
+                        <p class="ui-li-desc mtbi-font-larger">Late effect of intracranial injury with skull or facial fracture</p>
+                    </li>
+                    <li>
+                        <h3 class="ui-li-heading">907.0</h3>
+                        <p class="ui-li-desc mtbi-font-larger">Late effect of intracranial injury without skull or facial fracture</p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </body>
+</html>

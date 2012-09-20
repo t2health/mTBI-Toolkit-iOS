@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> 
+        <meta name="apple-mobile-web-app-capable" content="yes"> 
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+            
+        <title>Demo</title>
+        <link rel="shortcut icon" href="favicon.ico" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+<!--        <link rel="stylesheet" href="jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="jquery/mtbi.css" />
+        <link rel="stylesheet" href="stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+             
+        <script type="text/javascript" charset="utf-8" src="phonegap-1.0.0.js"></script>
+            
+       <script type="text/javascript" charset="utf-8" src="jquery/jquery-1.6.1.min.js"></script>
+       <script type="text/javascript" charset="utf-8" src="js/override.js"></script>
+       <script type="text/javascript" charset="utf-8" src="jquery/jquery.mobile-1.0.min.js"></script>
+       <script type="text/javascript" charset="utf-8" src="js/pluginFlurry.js"></script>
+       <script type="text/javascript" charset="utf-8" src="js/main.js"></script>
+       
+    </head>
+    <body>
+        <div data-role="page" id="mainPage" data-title="mTBI - Home" data-theme="b" >
+            <div data-role="content">
+                <ul id="mainList" data-role="listview" data-theme="d" data-dividertheme="b" data-split-icon="info">
+                    <li data-role="list-divider" role="heading">
+                        <h3 class="ui-li-heading" >Mild Traumatic Brain Injury</h3>
+                        <p class="ui-li-desc">Pocket Guide (CONUS)</p>
+                    </li>
+                    <li >
+                        <a href="pages/misc/definition.html" data-transition="fade">
+                            <h3>TBI Basics - Definition</h3>
+                            <p class="ui-li-desc">DoD Definition(2007)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/cpg/cpg.html">
+                            <h3 class="ui-li-heading">VA/DoD CPG</h3>
+                            <p class="ui-li-desc" >Summary and Algorithms A,B and C</p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/headache/headache.html">
+                            <h3>Headaches</h3>
+                            <p class="ui-li-desc"></p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/symptoms/symptoms.html">
+                            <h3>Other Symptoms</h3>
+                            <p class="ui-li-desc"></p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/icd/icd.html">
+                            <h3>DoD ICD-9 CM Coding Guidance for TBI</h3>
+                            <p class="ui-li-desc"></p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/cognitive/cognitive.html">
+                            <h3>Cognitive Rehabiliitation for Mild TBI Consensus Conference</h3>
+                            <p class="ui-li-desc">Summary of Clinical Recommendations</p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/driving/driving.html">
+                            <h3>Driving Following TBI Conference</h3>
+                            <p class="ui-li-desc">Conference(2009): Summary of Clinical Recommendations</p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/education/education.html">
+                            <h3>Patient Education</h3>
+                            <p class="ui-li-desc"></p>
+                        </a>                        
+                    </li>
+                    <li >
+                        <a href="pages/tools/tools.html">
+                            <h3>Clinical Tools and Resources</h3>
+                            <p class="ui-li-desc"></p>
+                        </a>                        
+                    </li>
+                    <li>
+                        <a href="pages/about.html">
+                           <h3>About mTBI</h3>
+                            <p class="ui-li-desc"></p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
+    

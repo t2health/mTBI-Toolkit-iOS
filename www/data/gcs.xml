@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+	<title>Glasgow Coma Scale (GCS)</title>
+	<desc>Scoring Range: 3–15</desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="1,2,3" />
+    </scoring>
+    <scoringrange text="" lowscore="0" highscore="10" />
+	<content>Scoring Range:3-15</content>
+	<questions>
+		<question
+			id="1"
+			title="Eye Opening"
+			desc=""
+			answerIds="spontaneously,to_speech,to_pain,do_not_open"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="2"
+			title="Best Verbal response"
+			desc=""
+			answerIds="oriented,confused,inappropriate,unintelligible,no_verbalization"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="3"
+			title="Best Motor response"
+			desc=""
+			answerIds="obeys_commands,localizes_to_pain,withdraws_from_pain,abnormal_flexion_decorticate,extension_decorticate,no_motor_response"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+	</questions>
+
+	<answers>
+		<answer
+			id="spontaneously"
+			title="Spontaneously"
+			desc=""
+			value="4"
+		/>
+		<answer
+			id="to_speech"
+			title="To speech"
+			desc=""
+			value="3"
+		/>
+		<answer
+			id="to_pain"
+			title="To pain"
+			desc=""
+			value="2"
+		/>
+		<answer
+			id="do_not_open"
+			title="Do not open"
+			desc=""
+			value="1"
+		/>
+
+
+		<answer
+			id="oriented"
+			title="Oriented"
+			desc=""
+			value="5"
+		/>
+		<answer
+			id="confused"
+			title="Confused"
+			desc=""
+			value="4"
+		/>
+		<answer
+			id="inappropriate"
+			title="Inappropriate"
+			desc=""
+			value="3"
+		/>
+		<answer
+			id="unintelligible"
+			title="Unintelligible"
+			desc=""
+			value="2"
+		/>
+		<answer
+			id="no_verbalization"
+			title="No verbalization"
+			desc=""
+			value="1"
+		/>
+
+
+		<answer
+			id="obeys_commands"
+			title="Obeys commands"
+			desc=""
+			value="6"
+		/>
+		<answer
+			id="localizes_to_pain"
+			title="Localizes to pain"
+			desc=""
+			value="5"
+		/>
+		<answer
+			id="withdraws_from_pain"
+			title="Withdraws from pain"
+			desc=""
+			value="4"
+		/>
+		<answer
+			id="abnormal_flexion_decorticate"
+			title="Abnormal flexion (decorticate)"
+			desc=""
+			value="3"
+		/>
+		<answer
+			id="extension_decorticate"
+			title="Extension (decorticate)"
+			desc=""
+			value="2"
+		/>
+		<answer
+			id="no_motor_response"
+			title="No motor response"
+			desc=""
+			value="1"
+		/>
+	</answers>
+</questionare>

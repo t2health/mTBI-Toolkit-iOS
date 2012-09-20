@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+	<title>Epworth Sleepiness Scale (ESS)</title>
+	<desc>How likely are you to doze off or fall asleep in the following situations, in contrast to feeling just tired? This refers to your usual way of life in recent times. Even if you haven’t done some of these things recently try to work out how they would have affected you.</desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="0,1,2,3,4,5,6,8" />
+    </scoring>
+    <scoringrange text="" lowscore="0" highscore="10" />
+	<content><![CDATA[
+		<h2>Scoring</h2>
+		<p>The total ESS score is the sum of eight item-scores and can range between 0 and 24. The higher the score, the higher the person’s level of daytime sleepiness. Most people can answer the ESS, without assistance, in two or three minutes. The total ESS score provides an estimate of a general characteristic of each person – their average level of sleepiness in daily life. This can be influenced by many factors, and the ESS does not distinguish which factor(s) have caused any particular level of daytime sleepiness. It is not a diagnostic tool in itself, but is a very useful tool for measuring one important aspect of a person’s sleep-wake health status.</p>
+                <p>Used with permission: Johns MW. A New Method for Measuring Daytime Sleepiness: The Epworth Sleepiness Scale. Sleep 1991; 14(6): 540-545.</p>
+	]]></content>
+
+	<questions>
+		<question
+			id="0"
+			title="Sitting and reading"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="1"
+			title="Watching TV"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="2"
+			title="Sitting, inactive in a public place, e.g., a theatre or a meeting"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="3"
+			title="As a passenger in a car for an hour without a break"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="4"
+			title="Lying down to rest in the afternoon when circumstances permit"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="5"
+			title="Sitting and talking to someone"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="6"
+			title="Sitting quietly after a lunch without alcohol"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+		<question
+			id="8"
+			title="In a car, while stopped for a few minutes in the traffic"
+			desc=""
+			answerIds="0,1,2,3"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+	</questions>
+
+	<answers>
+		<answer
+			id="0"
+			title="0 = Would never doze"
+			desc=""
+			value="0"
+		/>
+		<answer
+			id="1"
+			title="1 = Slight chance of dozing"
+			desc=""
+			value="1"
+		/>
+		<answer
+			id="2"
+			title="2 = Moderate chance of dozing"
+			desc=""
+			value="2"
+		/>
+		<answer
+			id="3"
+			title="3 = high chance of dozing"
+			desc=""
+			value="3"
+		/>
+	</answers>
+</questionare>

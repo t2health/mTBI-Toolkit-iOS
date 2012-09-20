@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Algorithm B: Management of Symptoms">
+	<step id="step1" positiveStepId="" negativeStepId="" neutralStepId="step2">
+		<title>Step One: History and Physical Exam</title>
+		<content><![CDATA[
+		<strong>History</strong>
+		<ul>
+			<li>Evaluate signs and symptoms indicating potential for neurosurgical emergencies that require immediate referrals</li>
+			<li>Confirm diagnosis of mild TBI</li>
+			<li>Characterize initial injury and identify detailed information of the injury event
+				<ul>
+					<li>Mechanism of injury</li>
+					<li>Duration and severity of alteration of consciousness</li>
+					<li>Immediate symptoms</li>
+				</ul>
+			</li>
+			<li>Patient’s symptoms and health concerns
+				<ul>
+					<li>Symptom course</li>
+					<li>Prior treatment</li>
+				</ul>
+			</li>
+			<li>Determine if symptoms are related to the mild TBI</li>
+			<li>Pre-morbid conditions, potential co-occurring conditions, other psychosocial risk factors</li>
+			<li>Assess danger to self or others</li>
+		</ul>
+
+		<strong>Physical Exam</strong>
+		<ul>
+			<li>Focused neurological examination
+				<ul>
+					<li>Mental Status Examination (MSE)</li>
+					<li>Cranial nerve testing</li>
+					<li>Extremity tone testing</li>
+					<li>Deep tendon reflexes</li>
+					<li>Strength</li>
+					<li>Sensation</li>
+					<li>Postural stability (Romberg’s Test, dynamic standing)</li>
+				</ul>
+			</li>
+			<li>Focused vision examination
+				<ul>
+					<li>Gross visual acuity</li>
+					<li>Eye movement</li>
+					<li>Binocular function</li>
+					<li>Visual fields/attention testing</li>
+				</ul>
+			</li>
+			<li>Focused musculoskeletal examination of head and neck
+				<ul>
+					<li>Range of motion of neck and jaw</li>
+					<li>Focal tenderness</li>
+					<li>Referred pain</li>
+				</ul>
+			</li>
+		</ul>
+
+		<strong>Lab Tests</strong>
+		<ul>
+			<li>Not necessary for mild TBI (may consider lab tests for evaluating other causes of symptoms)</li>
+		</ul>
+
+		<strong>Imaging</strong>
+		<ul>
+			<li>Not recommended for patients who sustained mild TBI beyond 72 hours post-injury (emergency phase) unless condition deteriorates or red flags noted</li>
+			<li>CT scan<br/>
+				<ul>
+					<li>Modality of choice for acute mild TBI</li>
+					<li>Absence of abnormal findings does not preclude presence of mild TBI</li>
+				</ul>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step2" positiveStepId="" negativeStepId="" neutralStepId="step3">
+		<title>Step Two: Clarify Symptoms</title>
+		<content><![CDATA[
+		<ul>
+			<li>Duration</li>
+			<li>Frequency</li>
+			<li>Onset and triggers</li>
+			<li>Location</li>
+			<li>Previous episodes</li>
+			<li>Intensity or severity</li>
+			<li>Previous treatment and response</li>
+			<li>Patient perception of symptoms</li>
+			<li>Impact on functioning</li>
+			<li>Assess exacerbating factors:
+				<ul>
+					<li>Prescribed and over-the-counter (OTC) medications</li>
+					<li>Caffeine, tobacco and other stimulants (energy drinks)</li>
+					<li>Sleep patterns and sleep hygiene</li>
+					<li>Co-existing illnesses</li>
+				</ul>
+			</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step3" positiveStepId="" negativeStepId="" neutralStepId="step4">
+		<title>Step Three: Evaluate and Treat Co-occuring Disorders</title>
+		<content><![CDATA[
+		<p>Comorbid psychiatric problems, whether or not regarded as etiologically related to the mild TBI, should be treated aggressively using appropriate psychotherapeutic and pharmacologic interventions. Comorbid psychiatric problems may include, but are not limited to:</p>
+		<ul>
+			<li>Major depressive episode</li>
+			<li>Anxiety disorders [including post-traumatic stress disorder (PTSD)]</li>
+			<li>Substance use disorder</li>
+		<ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step4" positiveStepId="" negativeStepId="" neutralStepId="step5">
+		<title>Step Four: Determine Treatment Plan</title>
+		<content><![CDATA[
+		<ul>
+			<li>Document summary of patient’s problems</li>
+			<li>Develop treatment plan that includes severity and urgency for treatment interventions</li>
+			<li>Discuss with patient the general concept of mild TBI sequelae, treatment options (and associated risks/benefits) and prognosis to determine patient’s preferences</li>
+			<li>Emphasize good prognosis and empower patient for self-management</li>
+			<li>Referral to specialty care is not required in majority of patients with mild TBI. Most patients with symptoms following a single mild TBI of recent onset can be successfully managed in the primary care setting</li>
+			<li>Treatment should be coordinated and may include consultation with rehabilitation therapists, pharmacy, collaborative mental health and social support</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step5" positiveStepId="" negativeStepId="" neutralStepId="step6">
+		<title>Step Five: Educate Patient and Family Early and Often (Written and Verbal)</title>
+		<content><![CDATA[
+		<ul>
+			<li>Review potential symptoms of mild TBI</li>
+			<li>Review expected outcomes and recovery
+				<ul>
+					<li>Reassurance on positive expectation of recovery</li>
+				</ul>
+			</li>
+			<li>Educate about prevention of further injuries</li>
+			<li>Techniques to manage stress (see “Step Six” below, refer to Patient Education tab and DVBIC’s educational materials available for download at <a href="http://www.dvbic.org">http://www.dvbic.org</a> )</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step6" positiveStepId="" negativeStepId="" neutralStepId="step7">
+		<title>Step Six: Provide Early (Non-pharmacologic) Interventions</title>
+		<content><![CDATA[
+		<ul>
+			<li>Sleep hygiene education (refer to Patient Education Tab, &quot;Healthy Sleep&quot;)</li>
+			<li>Relaxation techniques</li>
+			<li>Limiting use of caffeine, tobacco and alcohol</li>
+			<li>Graded return to exercise with close monitoring</li>
+			<li>Monitored progressive return to normal duty, work or activity</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step7" positiveStepId="" negativeStepId="" neutralStepId="step8">
+		<title>Step Seven: Consider Case Management</title>
+		<content><![CDATA[
+		Consider case management if all symptoms not sufficiently resolved within days. Assign case manager to:
+		<ul>
+			<li>Follow up and coordinate (remind) future appointments</li>
+			<li>Reinforce early interventions and education</li>
+			<li>Address psychosocial issues (financial, family, housing or school/work)</li>
+			<li>Connect to available resources</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step8" positiveStepId="" negativeStepId="" neutralStepId="step9">
+		<title>Step Eight: Initiate Symptom-based Treatment</title>
+		<content><![CDATA[
+                <a href="../../pages/symptoms/symptoms.html" data-role="button">See specific symptom tabs for symptom management</a>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step9" positiveStepId="" negativeStepId="" neutralStepId="step10">
+		<title>Step Nine: Follow Up and Reassess</title>
+		<content><![CDATA[
+		<ul>
+			<li>Follow up and reassess in four to six weeks, sooner if clinically indicated</li>
+			<li>Encourage and reinforce positive expectation of recovery</li>
+			<li>Monitor for comorbid conditions</li>
+			<li>Address:
+				<ul>
+					<li>Return to work, duty or activity</li>
+					<li>Community participation</li>
+					<li>Family/social issues</li>
+				</ul>
+			</li>
+		</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="step10" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>Step Ten: If Symptoms Are Not Sufficiently Resolved</title>
+		<content><![CDATA[
+                <a href="algorithm_c.html" data-role="button">Continue to Algorithm C: Follow-up of Persistent Symptoms</a>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+</workflow>

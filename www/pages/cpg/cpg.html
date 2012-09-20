@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>mTBI - CPG</title>
+ <!--        <link rel="stylesheet" href="../../jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="../../jquery/mtbi.css" />
+
+        <link rel="shortcut icon" href="../../favicon.ico" />
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+        <link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+        <script type="text/javascript" charset="utf-8" src="../../phonegap-1.0.0.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/override.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery.mobile-1.0b3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/main.js"></script>
+
+    </head>
+    <body>
+        <div data-role="page" id="cpgPage" data-title="mTBI - VA/DoD CPG"   data-theme="b">
+            <div data-role="header"   data-theme="b" data-dividertheme="b" data-position="inline">
+                <h1>VA/DoD CPG</h1>
+                <a href="../../main.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            </div>
+            <div data-role="content">
+                <ul id="cpgList" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">Summary</li>
+                    <li><a href="cpgSummary.html">
+                            <h3>VA/DoD CPG</h3>
+                            <p>Summary of Department of veterans Affairs/Department of Defense (VA/DoD) Clinical Practice Guideline (CPG) for the Management of Concussion/Mild TBI</p>
+                        </a>
+                    </li>
+                    <li data-role="list-divider" role="heading">Summary of Algorithms</li>
+                    <li><a href="algorithm_a.html">
+                            <h3>Algorithm A</h3>
+                            <p>Initial Presentation</p>
+                        </a>
+                    </li>
+                    <li><a href="algorithm_b.html">
+                            <h3>Algorithm B</h3>
+                            <p>Management of Symptoms</p>
+                        </a>
+                    </li>
+                    <li><a href="algorithm_c.html">
+                            <h3>Algorithm C</h3>
+                            <p>Follow-up of Persistent Symptoms</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <title>mTBI - Coding</title>
+ <!--        <link rel="stylesheet" href="../../jquery/jquery.mobile-1.0b3.css" /> -->
+        <link rel="stylesheet" href="../../jquery/mtbi.css" />
+
+        <link rel="shortcut icon" href="../../favicon.ico" />
+        <link rel="apple-touch-icon" href="../../apple-touch-icon.png" />
+        <link rel="stylesheet" href="../../stylesheets/styles.css" type="text/css" media="screen"/>
+
+        <!-- If your application is targeting iOS BEFORE 4.0 you MUST put json2.js
+         from http://www.JSON.org/json2.js into your www directory and include it here -->
+
+        <script type="text/javascript" charset="utf-8" src="../../phonegap-1.0.0.js"></script>
+
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery-1.6.1.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/override.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../jquery/jquery.mobile-1.0b3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="../../js/main.js"></script>
+
+    </head>
+    <body>
+        <div data-role="page" data-title="mTBI - DoD Definition" data-theme="b">
+            <div data-role="header" data-theme="b" data-position="inline">
+                <h1>Coding Initial TBI encounter</h1>
+                <a href="../../main.html" data-icon="home" data-iconpos="notext" data-direction="reverse" class="ui-btn-right jqm-home">Home</a>
+            </div>
+            <div data-role="content" data-theme="d" data-dividertheme="d">
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3 >Coding Initial TBI encounter</h3>
+                        <p>(Listed in order of precedence)</p>
+                    </li>
+                    <li>First time the patient is seen by ANY medical professional for TBI (regardless of when the injury occurred)</li>
+                    <li>Does not refer to the first time the patient is seen by each clinician for that particular TBI</li>
+                </ul>
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3>8XX Series</h3>
+                    </li>
+                    <li>Code from the 8XX series</li>
+                    <li>8XX series code used only once and for initial encounter</li>
+                    <li>Clinical documentation must support that the encounter coded is the initial encounter for that particular injury</li>
+                    <li>A fourth digit is required that further describes the 8XX series</li>
+                    <li>A fifth digit is required to describe the level of consciousness associated with the TBI</li>
+                </ul>
+                <a href="icd800.html" data-role="button" data-theme="b">View 8XX Series Codes</a>
+
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3>Personal History of TBI Code</h3>
+                    </li>
+                    <li>V15.52_X codes (personal history of TBI) are used to assist the DoD in tracking TBI occurrences</li>
+                    <li>The appropriate V15.52_X code should be utilized at all encounters associated with the TBI</li>
+                </ul>
+                <a href="icdCalcVCodes.html" data-role="button" data-theme="b">View V15.52_X Codes</a>
+
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3>Symptom Code(s)</h3>
+                    </li>
+                    <li>Representative of patient’s presenting complaint(s)</li>
+                </ul>
+
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3>TBI Screening (if applicable)</h3>
+                    </li>
+                    <li>Code V80.01</li>
+                    <li>Must be coded if screening occurs at a visit</li>
+                    <li>A TBI diagnosis code should not be entered for a positive screen since a positive TBI screen does not equal a TBI diagnosis</li>
+                </ul>
+
+                <ul data-inset="true" data-role="listview"  data-theme="d" data-dividertheme="d">
+                    <li data-role="list-divider" role="heading">
+                        <h3>Deployment Status Code</h3>
+                    </li>
+                    <li>V70.5_5 (during deployment encounter)
+                    <li>V70.5_6 (post-deployment encounter)</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

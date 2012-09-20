@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+    <title>Dizziness Handicap Inventory (DHI)</title>
+    <desc>Answer each question as it pertains to dizziness or unsteadiness problems.</desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="p1,e2,f3,p4,f5,f6,f7,p8,e9,e10,p11,f12,p13,f14,e15,f16,p17,e18,f19,e20,e21,e22,e23,f24,p25" />
+    </scoring>
+    <scoringrange text="None" lowscore="0" highscore="10" />
+    <scoringrange text="Refer to balance specialists for further evaluation." lowscore="11" highscore="15" />
+    <scoringrange text="Mild handicap. Refer to balance specialists for further evaluation." lowscore="16" highscore="34" />
+    <scoringrange text="Moderate handicap. Refer to balance specialists for further evaluation." lowscore="35" highscore="53" />
+    <scoringrange text="Severe handicap. Refer to balance specialists for further evaluation." lowscore="54" highscore="200" />
+    <content><![CDATA[
+		<h2>DHI Scoring Instructions</h2>
+		<p>The patient is asked to answer each question as it pertains to dizziness or unsteadiness problems, specifically considering their condition during the last month. Questions are designed to incorporate functional (F), physical (P), and emotional (E) impacts on disability.</p>
+		<p>
+			To each item, the following scores can be assigned:
+			<ul>
+				<li>No = 0</li>
+				<li>Sometimes = 2</li>
+				<li>Yes = 4</li>
+			</ul>
+		</p>
+		<p>
+			Scores greater than 10 points should be referred to balance specialists for further evaluation.
+			<ul>
+				<li>16–34 Points (mild handicap)</li>
+				<li>36–52 Points (moderate handicap)</li>
+				<li>54+ Points (severe handicap)</li>
+			</ul>
+		</p>
+                <p>Used with permission: Jacobson GP, Newman CW: The development of the Dizziness Handicap Inventory. Arch Otolaryngol Head Neck Surg 1990;116: 424-427</p>
+	]]>
+    </content>
+
+    <questions>
+        <question
+			id="p1"
+			title="P1.	Does looking up increase your problem?"
+			desc=""
+			answerIds="yes,sometimes,no"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e2"
+			title="E2.	Because of your problem, do you feel frustrated?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f3"
+			title="F3.	Because of your problem, do you restrict your travel for business or recreation?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="p4"
+			title="P4.	Does walking down the aisle of a supermarket increase your problems?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f5"
+			title="F5.	Because of your problem, do you have difficulty getting into or out of bed?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f6"
+			title="F6. Does your problem significantly restrict your participation in social activities, such as going out to dinner, going to the movies, dancing or going to parties?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f7"
+			title="F7.	Because of your problem, do you have difficulty reading?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="p8"
+			title="P8. Does performing more ambitious activities such as sports, dancing and household chores (sweeping or putting dishes away) increase your problems?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e9"
+			title="E9.	Because of your problem, are you afraid to leave your home without having someone accompany you?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e10"
+			title="E10. Because of your problem, have you been embarrassed in front of others?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="p11"
+			title="P11. Do quick movements of your head increase your problem?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f12"
+			title="F12. Because of your problem, do you avoid heights?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="p13"
+			title="P13. Does turning over in bed increase your problem?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f14"
+			title="F14. Because of your problem, is it difficult for you to do strenuous homework or yard work?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e15"
+			title="E15. Because of your problem, are you afraid people may think you are intoxicated?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f16"
+			title="F16. Because of your problem, is it difficult for you to go for a walk by yourself?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="p17"
+			title="P17. Does walking down a sidewalk increase your problem?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e18"
+			title="E18. Because of your problem, is it difficult for you to concentrate?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f19"
+			title="F19. Because of your problem, is it difficult for you to walk around your house in the dark?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e20"
+			title="E20. Because of your problem, are you afraid to stay home alone?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e21"
+			title="E21. Because of your problem, do you feel handicapped?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e22"
+			title="E22. Has the problem placed stress on your relationships with members of your family or friends?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="e23"
+			title="E23. Because of your problem, are you depressed?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="f24"
+			title="F24. Does your problem interfere with your job or household responsibilities?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="p25"
+			title="P25. Does bending over increase your problem?"
+			desc=""
+			answerIds="yes,sometimes,no"
+                        altAnswerIds=""
+			correctanswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+    </questions>
+
+    <answers>
+        <answer
+			id="yes"
+			title="Yes"
+			desc=""
+			value="4"
+		/>
+        <answer
+			id="sometimes"
+			title="Sometimes"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="no"
+			title="No"
+			desc=""
+			value="0"
+		/>
+    </answers>
+</questionare>

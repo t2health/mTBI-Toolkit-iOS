@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+    <title>Neurobehavioral Symptom Inventory (NSI)</title>
+    <desc>Please rate the following symptoms with regard to how much they have disturbed you in the last two weeks. The purpose of this inventory is to track symptoms over time. Please do not attempt to score.</desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="" />
+    </scoring>
+    <scoringrange text="It is Not Scored" lowscore="0" highscore="200" />
+    <content><![CDATA[
+    <p>The purpose of this inventory is to track symptoms over time.  Please do not attempt to score.</p>
+    <p>Used with permission: Cicerone, K. D. &amp; Kalmar, K. (1995) Persistent post-concussive syndrom: Structure of subjective complaints after mild traumatic brain injury. Jounal of Head Trauma Rehabilitation. 10(3): 1-17.</p>
+    ]]></content>
+    <questions>
+        <question
+			id="1"
+			title="Feeling Dizzy"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="2"
+			title="Loss of balance"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="3"
+			title="Poor coordination, clumsy"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="4"
+			title="Headaches"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="5"
+			title="Nausea"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="6"
+			title="Vision problems, blurring, trouble seeing"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="7"
+			title="Sensitivity to light"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="8"
+			title="Hearing difficulty"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="9"
+			title="Sensitivity to noise"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="10"
+			title="Numbness or tingling on parts of my body"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="11"
+			title="Change in taste and/or smell"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="12"
+			title="Loss of appetite or increased appetite"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="13"
+			title="Poor concentration, can’t pay attention, easily distracted"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="14"
+			title="Forgetfulness, can’t remember things"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="15"
+			title="Difficulty making decisions"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="16"
+			title="Slowed thinking, difficulty getting organized, can’t finish things"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="17"
+			title="Fatigue, loss of energy, getting tired easily"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="18"
+			title="Difficulty falling or staying asleep"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="19"
+			title="Feeling anxious or tense"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="20"
+			title="Feeling depressed or sad"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="21"
+			title="Irritability, easily annoyed"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+        <question
+			id="22"
+			title="Poor frustration tolerance, feeling easily overwhelmed by things"
+			desc=""
+			answerIds="0,1,2,3,4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+    </questions>
+
+    <answers>
+        <answer
+			id="0"
+			title="0 = None"
+			desc="Rarely if ever present, not a problem at all"
+			value="0"
+		/>
+        <answer
+			id="1"
+			title="1 = Mild"
+			desc="Occasionally present, but it does not disrupt my activities; I can usually continue what I’m doing; doesn’t really concern me"
+			value="1"
+		/>
+        <answer
+			id="2"
+			title="2 = Moderate"
+			desc="Often present, occasionally disrupts my activities; I can usually continue what I’m doing with some effort; I feel somewhat concerned"
+			value="2"
+		/>
+        <answer
+			id="3"
+			title="3 = Severe"
+			desc="Frequently present and disrupts activities; I can only do things that are fairly simple or take little effort; I feel I need help"
+			value="3"
+		/>
+        <answer
+			id="4"
+			title="4 = Very Severe"
+			desc="Almost always present and I have been unable to perform at work, school or home due to this problem; I probably cannot function without help"
+			value="4"
+		/>
+    </answers>
+</questionare>

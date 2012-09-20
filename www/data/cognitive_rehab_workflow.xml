@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Rehabilitation Process">
+	<step id="0" positiveStepId="" negativeStepId="" neutralStepId="1">
+		<title>Initial Evaluation</title>
+		<content><![CDATA[
+			<ul>
+				<li>Description of injury event</li>
+				<li>Duration of loss of consciousness or altered mental status</li>
+				<li>Confirmation of mild TBI diagnosis</li>
+				<li>Evaluation of ongoing symptoms</li>
+				<li>Mental health evaluation</li>
+				<li>Evaluate for chronic pain, sleep disorders and substance abuse</li>
+				<li>Measures of effort</li>
+			</ul>
+		]]></content>
+		<detailedContent><![CDATA[
+			<ul>
+				<li><strong>Purpose</strong>: To determine if the individual has a history of mild TBI with persistent cognitive symptoms or signs of cognitive impairment and to determine if any comorbidities exist that may affect cognitive function</li>
+				<li>Performed by a TBI-experienced provider in the primary care setting who is also familiar with other deployment-related health conditions</li>
+				<li>Referral to the initial evaluation can be made by any provider</li>
+				<li>Reasons for referral: cognitive symptoms observed by the provider or reported by the patient, family or leadership; referral may also be made even if the patient does not report cognitive symptoms but displays evidence of cognitive dysfunction in daily social or occupational functioning</li>
+				<li>Any suspicion of mild TBI with persistent cognitive symptoms warrants further cognitive evaluation</li>
+			</ul>
+		]]></detailedContent>
+	</step>
+	<step id="1" positiveStepId="" negativeStepId="" neutralStepId="2">
+		<title>Possible Outcomes Following Initial Evaluation</title>
+		<content>
+		<![CDATA[
+			<strong>Outcome #1</strong></td>
+			<p>The patient does not have any cognitive symptoms; education and reassurance to the referring provider and the patient</p>
+
+			<strong>Outcome #2</strong>
+			<p>There is no indication that the patient sustained a mild TBI but cognitive symptoms are present; refer the patient back to the primary care provider for further evaluation of a medical or mental health condition</p>
+
+			<strong>Outcome #3</strong>
+			<p>The patient has comorbidities or other symptoms that are too severe for him/her to undergo cognitive assessment</p>
+			<ul>
+				<li>If referred to specialty clinic, assign case manager and re-evaluate in four weeks</li>
+				<li>If referred to specialty clinic and all cognitive symptoms resolve, case manager to follow via phone for six months to ensure symptoms remain resolved</li>
+			</ul>
+
+			<strong>Outcome #4</strong>
+			<p>The patient sustained a mild TBI and has symptoms that warrant further <strong>comprehensive cognitive evaluation</strong></p>
+		]]>
+		</content>
+		<detailedContent><![CDATA[
+		<ul>
+			<li><strong>Purpose:</strong>
+				<ol>
+					<li>To determine the primary factor contributing to symptoms</li>
+					<li>cognitive deficits</li>
+					<li>the need for cognitive rehabilitation</li>
+					<li>the type of rehabilitation needed and</li>
+					<li>the short- and long-term goals</li>
+				</ol>
+			</li>
+			<li>Performed by an interdisciplinary group (resource dependent): neuropsychologist, occupational therapist and speech- language pathologist</li>
+			<li>Includes a comprehensive neurological evaluation performed by a neurologist or physician with expertise in and knowledge of cognitive symptoms</li>
+			<li>Includes a review of the medical records to look for prior cognitive disorders</li>
+		</ul>
+		]]></detailedContent>
+	</step>
+	<step id="2" positiveStepId="" negativeStepId="" neutralStepId="3">
+		<title>Comprehensive Cognitive Evaluation</title>
+		<content>
+		<![CDATA[
+		<ul>
+			<li>Comprehensive neurological evaluation to occur prior to comprehensive cognitive evaluation</li>
+			<li>Assessment domains:
+				<ul>
+					<li>Attention</li>
+					<li>Memory</li>
+					<li>Processing speed</li>
+					<li>Executive functioning (reasoning, problem solving, organizing, planning, self-monitoring and emotional regulation)</li>
+					<li>PTSD screen</li>
+					<li>Post-concussive syndrome symptom rating</li>
+					<li>Pain screen</li>
+					<li>Symptom validity test</li>
+					<li>Substance abuse screen</li>
+					<li>Measures of effort</li>
+				</ul>
+			</li>
+		</ul>
+		]]>
+		</content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="3" positiveStepId="" negativeStepId="" neutralStepId="4">
+		<title>Determine the Treatment Plan Upon Completion of the Comprehensive Cognitive Assessment</title>
+		<content><![CDATA[
+				<ul>
+					<li>Primary factor contributing to symptoms, e.g., is mild TBI the primary cause of the symptoms or is a comorbidity, such as major depression, considered the primary contributor</li>
+					<li>Cognitive deficits associated with diagnosis of mild TBI</li>
+					<li>Need for cognitive rehabilitation</li>
+					<li>Type of rehabilitation needed</li>
+					<li>Short- and long-term goals of rehabilitation</li>
+				</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="4" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>Interventions</title>
+		<content><![CDATA[
+			<style type="text/css">
+				table {
+					border-top: 1px solid white;
+					border-left: 1px solid white;
+					width: 100%;
+				}
+				table td, table th {
+					vertical-align: top;
+					border-bottom: 1px solid white;
+					border-right: 1px solid white;
+					width: 50%;
+				}
+
+				table td ul {
+					padding: 0px;
+					margin: 0px;
+					padding-left: 20px;
+				}
+				table td ul li {
+					margin: 0px;
+					padding: 0px;
+				}
+			</style>
+			<table cellspacing="0">
+				<tr>
+				 <td><strong>Area of Cognitive Impairment</strong></td>
+				 <td><strong>Empirically-supported Interventions</strong></td>
+				</tr>
+				<tr>
+				 <td>
+				  <ul>
+				   <li>Attention</li>
+				  </ul>
+				 </td>
+				 <td>
+					<ul>
+						<li>Attention process training</li>
+						<li>Working memory training</li>
+					</ul>
+				 </td>
+				</tr>
+				<tr>
+					<td> <ul>
+				   <li>Memory</li>
+				  </ul></td>
+					<td>
+						<ul>
+						<li>Various mnemonic techniques</li>
+						<li>Visual imagery mnemonics</li>
+					</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>Attention</li>
+							<li>Memory</li>
+							<li>Executive functioning</li>
+						</ul></td>
+					<td>
+						<ul>
+							<li>Memory notebook</li>
+							<li>External cuing</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>Executive functioning</li>
+							<li>Social pragmatics</li>
+						</ul>
+
+					</td>
+					<td>
+						<ul>
+							<li>Social communication skills training groups</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<ul>
+							<li>Attention</li>
+							<li>Memory</li>
+							<li>Executive functioning</li>
+							<li>Social pragmatics</li>
+						</ul></td>
+					<td>
+						<ul>
+							<li>Problem solving training</li>
+							<li>Error management training</li>
+							<li>Emotional regulation training</li>
+							<li>Integrated use of individual and group interviews</li>
+						</ul>
+
+					</td>
+				</tr>
+
+			</table>
+		]]></content>
+		<detailedContent><![CDATA[
+			<ul>
+				<li>Interventions should target attention, memory, executive functioning and social pragmatics as these are the most common cognitive domains affected by TBI</li>
+				<li>Attention is the prerequisite for basic and complex behaviors involving memory, judgment, social perception and executive skills</li>
+				<li>Interventions should be based on a holistic approach and include individual and group therapies within an integrated therapeutic environment</li>
+				<li>Specific examples of empirically-supported interventions are contained in the full guidance document (<a href="http://www.dcoe.health.mil/ForHealthPros/Resources.aspx">http://www.dcoe.health. mil/ForHealthPros/Resources.aspx</a>)</li>
+			</ul>
+		]]></detailedContent>
+	</step>
+</workflow>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Neck Stretches">
+	<step id="0" positiveStepId="" negativeStepId="" neutralStepId="1">
+		<title>Before Stretching</title>
+		<content><![CDATA[
+			<p>Before stretching in any direction, pull up your spine as straight as possible, then “retract” your chin towards your neck. The muscles you are stretching are small and delicate: start low, and go slow.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="1" positiveStepId="" negativeStepId="" neutralStepId="2">
+		<title>Pull Up</title>
+		<content><![CDATA[
+                        <div style="width:100%;text-align:center;">
+			<img class="examplePhoto" src="../../img/neck_stretches/pullup.png" />
+                        </div>
+			<p>Keep your head level (not bending forward or back), do not tug or shove neck, and gently press on your chin for a deeper stretch.</p>
+			<p>Start by holding for only about five to 10 seconds, then more each day.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="2" positiveStepId="" negativeStepId="" neutralStepId="3">
+		<title>Retract</title>
+		<content><![CDATA[
+                        <div style="width:100%;text-align:center;">
+			<img class="examplePhoto" src="../../img/neck_stretches/retract.png"/>
+                        </div>
+			<p>Keep your head level (not bending forward or back), do not tug or shove neck, and gently press on your chin for a deeper stretch.</p>
+			<p>Start by holding for only about five to 10 seconds, then more each day.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="3" positiveStepId="" negativeStepId="" neutralStepId="4">
+		<title>Deeper Stretch</title>
+		<content><![CDATA[
+                        <div style="width:100%;text-align:center;">
+			<img class="examplePhoto" src="../../img/neck_stretches/deeperstretch.png" />
+                        </div>
+			<p>Keep your head level (not bending forward or back), do not tug or shove neck, and gently press on your chin for a deeper stretch.</p>
+			<p>Start by holding for only about five to 10 seconds, then more each day.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="4" positiveStepId="" negativeStepId="" neutralStepId="5">
+		<title>Flexion (chin to chest)</title>
+		<content><![CDATA[
+                        <div style="width:100%;text-align:center;">
+			<img class="examplePhoto" src="../../img/neck_stretches/chin_chest.png" />
+                        </div>
+			<p>Keep your head level (not bending forward or back), do not tug or shove neck, and gently press on your chin for a deeper stretch.</p>
+			<p>Start by holding for only about five to 10 seconds, then more each day.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="5" positiveStepId="" negativeStepId="" neutralStepId="6">
+		<title>Lateral flexion (Ear to shoulder)</title>
+		<content><![CDATA[
+                        <div style="width:100%;text-align:center;">
+			<img class="examplePhoto" src="../../img/neck_stretches/ear_shoulder.png" />
+                        </div>
+			<p>Keep your head level (not bending forward or back), do not tug or shove neck, and gently press on your chin for a deeper stretch.</p>
+			<p>Start by holding for only about five to 10 seconds, then more each day.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="6" positiveStepId="" negativeStepId="" neutralStepId="7">
+		<title>Rotation (Turn)</title>
+		<content><![CDATA[
+                        <div style="width:100%;text-align:center;">
+			<img class="examplePhoto" src="../../img/neck_stretches/rotation.png" />
+                        </div>
+			<p>Keep your head level (not bending forward or back), do not tug or shove neck, and gently press on your chin for a deeper stretch.</p>
+			<p>Start by holding for only about five to 10 seconds, then more each day.</p>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+	<step id="7" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>Exercise Complete</title>
+		<content><![CDATA[
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+
+</workflow>

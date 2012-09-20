@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items title="DoD ICD-9 Coding Guidance for TBI (January 2010)" style="separated">
+	<item title="DoD ICD-9 Coding Guidance for TBI" id="guidance">
+		<item title="Formal Introduction" link=""><![CDATA[
+                    <h3>(January 2010)</h3>
+                    <p>
+			Special rules apply to the coding of brain injuries, specifically to DoD extenders for capturing data on TBI. This guidance is intended for coding TBI occurring both in theater and at all military treatment facilities (MTFs). TBI is coded based on documentation contained within the medical record and in accordance with Military Health System (MHS) and ICD-9-CM coding guidelines. In all cases of TBI encounters, at least two codes are necessary to capture the required elements. In the case of the initial encounter these two codes are the 8XX series code and the personal history of TBI code (V15.52_X). In the case of subsequent encounters, these two codes are the appropriate symptom code(s) and the personal history of TBI code (V15.52_X). Other codes may apply, e.g., deployment codes, E codes, to encounters and should be used in accordance with general coding guidance.
+                    </p>
+		]]></item>
+	
+		<item title="Coding Initial TBI encounter (Listed in order of precedence)" link="codingInitialEncounter.html" />
+
+		<item title="Coding Subsequent TBI Encounters (Listed in order of precedence)" link=""><![CDATA[
+                <div>
+			<h3>Symptom Code(s)</h3>
+			<ul>
+				<li>Symptom codes are used that best represent the patient’s presenting complaint, e.g., headaches, insomnia and vertigo, as the primary code</li>
+			</ul>
+	
+			<h3>Personal History of TBI Code</h3>
+			<ul>
+				<li>V15.52_X codes (personal history of TBI) are used to assist the DoD in tracking TBI occurrences</li>
+				<li>The appropriate V15.52_X code should be utilized at all encounters associated with the TBI</li>
+			</ul>
+	
+			<h3>Late Effect Code</h3>
+			<ul>
+				<li>Used for all follow-up visits related to TBI</li>
+				<li>905.0 (late effect of intracranial injury with skull or facial fracture)</li>
+				<li>907.0 (late effect of intracranial injury without skull or facial fracture)</li>
+			</ul>
+                        <a href="emotionalBehavioralCodes.html" data-role="button" data-theme="b">View Late Effect Codes</a>
+	
+			<h3>Deployment Status Code</h3>
+			<ul>
+				<li>V70.5_5 (during deployment encounter)</li>
+				<li>V70.5_6 (post-deployment encounter)</li>
+			</ul></div>
+                ]]></item>
+
+		<item title="Miscellaneous" link=""><![CDATA[
+                <div>
+			<h3>Inpatient or Outpatient Rehabilitation</h3>
+			<ul>
+				<li>The first code entered is taken from the V57.XX series</li>
+				<li>Guidance for coding subsequent TBI encounters is then followed</li>
+			</ul>
+	
+			<h3>Emotional/Behavioral Symptom Codes</h3>
+			<ul>
+				<li>799-series codes allow providers to code emotional/behavioral symptoms without using mental health diagnosis codes</li>
+				<li>Do not replace mental health diagnosis codes</li>
+				<li>Used when providers observe symptoms but a mental health diagnosis is not established</li>
+			</ul>
+                        <a href="emotionalBehavioralCodes.html" data-role="button" data-theme="b">View Emotional/Behavioral Symptom Codes</a>
+			<h3>E-Code</h3>
+			<ul>
+				<li>Assigned when appropriate, e.g., E979.2—terrorism involving other explosions/fragments</li>
+				<li>Refer to Health Information Management Coding Department for further guidance</li>
+			</ul>
+	
+			<h3>Procedure Coding for TBI Care</h3>
+			<ul>
+				<li>CPT code 96116 is used if the Psychomotor Neurobehavioral Status Exam is completed</li>
+				<li>Includes the time for testing, interpreting and preparing the report
+				<li>Coding is completed in one hour units. Anything less than one hour is claimed as one unit</li>
+				<li>Documentation must include clinically indicated portions of an assessment of thinking, reasoning and judgment, e.g., attention, acquired knowledge, language, memory and problem solving. The areas most often affected by TBI include attention, memory and problem solving so these areas should be screened if there are cognitive complaints</li>
+				<li>Other areas may be assessed as clinically indicated and may be completed in follow-up visits as long as the documentation is supportive (history and documented screening examination)</li>
+			</ul>
+                        <a href="icdProcedure.html" data-role="button" data-theme="b">View Procedure Coding for TBI Care Codes</a>
+                        </div>
+		]]></item>
+	</item>
+
+	<item title="Commonly Used TBI Codes" id="commonCodes" style="normal">
+		<item title="TBI Screening Code" id="screening" parentId="commonCodes">
+			<item title="V80.01 Special Screening for TBI" parentId="screening" link="" />
+		</item>
+
+		<item title="800-804 and 850-854 Series Codes" id="s2" parentId="commonCodes">
+			<item title="800 Fractures of vault of skull" parentId="s2" link="" />
+			<item title="801 Fractures of base of skull" parentId="s2" link="" />
+			<item title="802 Fracture of face bones" parentId="s2" link="" />
+			<item title="803 Other and unqualified skull fractures" parentId="s2" link="" />
+			<item title="804 Multiple fractures involving skull or face with other bones" parentId="s2" link="" />
+			<item title="850 Concussion" parentId="s2" link="" />
+			<item title="851 Cerebral laceration and contusion" parentId="s2" link="" />
+			<item title="852 Subarachnoid, subdural and extradural hemorrhage, following injury" parentId="s2"  link=""/>
+			<item title="853 Other and unspecified intracranial hemorrhages following injury" parentId="s2" link="" />
+			<item title="854 Intracranial injuries of other and unspecified nature" parentId="s2"  link=""/>
+		</item>
+
+		<item title="V-Codes" uri="t2mtbi://vcodes" parentId="commonCodes" />
+
+		<item title="Late effect Code (must be used with all follow-up TBI encounters)" id="late-effect-code" parentId="commonCodes">
+			<item title="905.0 Late effect of intracranial injury with skull or facial fracture" parentId="late-effect-code" link="" />
+			<item title="907.0 Late effect of intracranial injury without skull or facial fracture" parentId="late-effect-code" link="" />
+		</item>
+
+		<item title="Common Symptoms Associated with TBI" id="commonSymptoms" parentId="commonCodes" style="separated">
+			<item title="Hearing" id="csHearing" parentId="commonSymptoms">
+				<item title="389.9 Hearing Loss, Unspecified" parentId="csHearing" link="" />
+				<item title="388.42 Hyperacusis (oversensitivity to certain sound frequencies)" parentId="csHearing" link="" />
+				<item title="388.3 Tinnitus" parentId="csHearing" link="" />
+			</item>
+
+			<item title="Neurologic" id="csNeurologic" parentId="commonSymptoms">
+				<item title="780.4 Dizziness, Lightheadedness" parentId="csNeurologic" link="" />
+				<item title="784.0 Headache" parentId="csNeurologic" link="" />
+				<item title="780.93 Memory Loss, Not Otherwise Specified (NOS)" parentId="csNeurologic" link="" />
+				<item title="438.85 Vertigo" parentId="csNeurologic" link="" />
+			</item>
+
+			<item title="Psychiatric" id="csPsychiatric" parentId="commonSymptoms">
+				<item title="308.9 Acute Stress Reaction, Unspecified" parentId="csPsychiatric" link="" />
+				<item title="300 Anxiety/Irritability" parentId="csPsychiatric" link="" />
+				<item title="311 Depression" parentId="csPsychiatric" link="" />
+			</item>
+
+			<item title="Sleep" id="csSleep" parentId="commonSymptoms">
+				<item title="780.5 Sleep Disturbance" parentId="csSleep" link="" />
+				<item title="780.52 Insomnia" parentId="csSleep" link="" />
+			</item>
+
+			<item title="Vision" id="csVision" parentId="commonSymptoms">
+				<item title="368.8 Blurred Vision, NOS" parentId="csVision" link="" />
+				<item title="368.13 Photophobia" parentId="csVision" link="" />
+			</item>
+
+			<item title="Other/General" id="csOther" parentId="commonSymptoms">
+				<item title="780.7 Malaise and Fatigue" parentId="csOther" link="" />
+				<item title="787.02 Nausea" parentId="csOther"  link=""/>
+			</item>
+		</item>
+
+		<item title="Emotional/Behavioral Symptom Codes" id="emotionalBehavioralCodes" parentId="commonCodes">
+			<item title="799.21	- Nervousness" parentId="emotionalBehavioralCodes" link="" />
+			<item title="799.22	- Irritability" parentId="emotionalBehavioralCodes" link="" />
+			<item title="799.23	- Impulsiveness" parentId="emotionalBehavioralCodes" link="" />
+			<item title="799.24 - Emotional Lability" parentId="emotionalBehavioralCodes" link="" />
+			<item title="799.25 - Demoralization and Apathy" parentId="emotionalBehavioralCodes" link="" />
+			<item title="799.29 - Other Signs and Symptoms Involving Emotional State" parentId="emotionalBehavioralCodes"  link=""/>
+		</item>
+
+		<item title="E&amp;M Coding for TBI Care" id="emCoding" parentId="commonCodes" link="">
+			<item title="99203 - New Outpatient – level 3" parentId="emCoding"  link=""/>
+			<item title="99204 - New Outpatient – level 4" parentId="emCoding"  link=""/>
+			<item title="99213 - Established Outpatient – level 3" parentId="emCoding"  link=""/>
+			<item title="99214 - Established Outpatient – level 4" parentId="emCoding" link="" />
+		</item>
+
+		<item title="Procedure Code for TBI Care" id="procedureCodeForTBICare" parentId="commonCodes">
+			<item title="96116 - Neurobehavioral Status Exam" parentId="procedureCodeForTBICare"  link=""/>
+		</item>
+	</item>
+</items>

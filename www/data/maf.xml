@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<questionare>
+    <title>Multidimensional Assessment of Fatigue (MAF) Scale</title>
+    <desc><![CDATA[
+        <p>Please complete the following items based on the past week.</p>
+        <p>Move the slider to the number that most closely indicates how you have been feeling during the past week.</p>
+    ]]></desc>
+    <scoring>
+        <scoringStep scoreType="sum" questionIds="1,2,3,15" />
+        <scoringStep scoreType="avgoverzero" questionIds="4,5,6,7,8,9,10,11,12,13,14" />
+    </scoring>
+    <scoringrange text="Scoring is from 1 (no fatigue) to 50(severe fatigue)." lowscore="1" highscore="50" />
+    <content><![CDATA[
+        <h2>Scoring</h2>
+        <p>To calculate the Global Fatigue Index (GFI): Convert item #15 to a 0–10 scale by multiplying each score by 2.5 and then sum items #1, 2, 3, average #4–14, and newly scored item #15. Scores range from 1 (no fatigue) to 50 (severe fatigue). Do not assign a score to items #4–14 if respondent indicated they “do not do any activity for reasons other than fatigue.</p>
+        <p>If respondents select no fatigue on item #1, assign a zero to items #2–16. Item #16 is not included in the GFI.</p>
+	]]>
+    </content>
+
+    <questions>
+        <question
+			id="1"
+			title="1. To what degree have you experienced fatigue?"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="no"
+                        onchange="maf1change(this);"
+		/>
+
+        <question
+			id="2"
+			title="2. How severe is the fatigue you have been experiencing?"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="2-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,2-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="no"
+		/>
+        <question
+			id="3"
+			title="3. To what degree has fatigue caused you distress?"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="3-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,3-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="no"
+		/>
+
+        <question
+			id="4"
+			title="4. In the past week, to what degree has fatigue interfered with your ability to do household chores"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="5"
+			title="5. In the past week, to what degree has fatigue interfered with your ability to cook"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="6"
+			title="6. In the past week, to what degree has fatigue interfered with your ability to bathe or wash"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="7"
+			title="7. In the past week, to what degree has fatigue interfered with your ability to dress"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="8"
+			title="8. In the past week, to what degree has fatigue interfered with your ability to work"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="9"
+			title="9. In the past week, to what degree has fatigue interfered with your ability to visit or socialize with friends or family"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="10"
+			title="10. In the past week, to what degree has fatigue interfered with your ability to engage in sexual activity"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="11"
+			title="11. In the past week, to what degree has fatigue interfered with your ability to engage in leisure and recreational activities"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="12"
+			title="12. In the past week, to what degree has fatigue interfered with your ability to shop and do errands"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="13"
+			title="13. In the past week, to what degree has fatigue interfered with your ability to walk"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+        <question
+			id="14"
+			title="14. In the past week, to what degree has fatigue interfered with your ability to exercise, other than walking"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="0-1,0-2,0-3,0-4,0-5,0-6,0-7,0-8,0-9,0-10"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="segmented"
+                        weight="1"
+                        allowbypass="yes"
+		/>
+
+        <question
+			id="15"
+			title="15. Over the past week, how often have you been fatigued?"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="15-1,15-2,15-3,15-4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="2.5"
+		/>
+        <question
+			id="16"
+			title="16. To what degree has your fatigue changed during the past week?"
+			desc="Move the slider to the number that most closely indicates how you have been feeling during the past week."
+			answerIds="16-1,16-2,16-3,16-4"
+			correctanswerIds=""
+                        altAnswerIds=""
+                        type="singleSelect"
+                        weight="1"
+		/>
+    </questions>
+
+    <answers>
+        <answer
+			id="2-1"
+			title="1 - Mild"
+			desc="Mild"
+			value="1"
+		/>
+        <answer
+			id="2-10"
+			title="0 - Severe"
+			desc="Severe"
+			value="10"
+		/>
+
+        <answer
+			id="3-1"
+			title="1 - No Distress"
+			desc="No Distress"
+			value="1"
+		/>
+        <answer
+			id="3-10"
+			title="10 - A great deal of distress"
+			desc="A great deal of distress"
+			value="10"
+		/>
+
+
+        <answer
+			id="15-1"
+			title="1 - Hardly any days"
+			desc=""
+			value="1"
+		/>
+        <answer
+			id="15-2"
+			title="2 - Most, but not all the days"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="15-3"
+			title="3 - Occcasionally, but not most days"
+			desc=""
+			value="3"
+		/>
+        <answer
+			id="15-4"
+			title="4 - Every day"
+			desc=""
+			value="4"
+		/>
+
+
+        <answer
+			id="16-1"
+			title="1 - Decreased"
+			desc=""
+			value="1"
+		/>
+        <answer
+			id="16-2"
+			title="2 - Stayed the same"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="16-3"
+			title="3 - Fatigue has gone up and down"
+			desc=""
+			value="3"
+		/>
+        <answer
+			id="16-4"
+			title="4 - Increased"
+			desc=""
+			value="4"
+		/>
+
+        <answer
+			id="na"
+			title="I don't do this activity"
+			desc=""
+			value="0"
+		/>
+        <answer
+			id="0-1"
+			title="1 - Not at all"
+			desc="Not at all"
+			value="1"
+		/>
+        <answer
+			id="0-2"
+			title="2"
+			desc=""
+			value="2"
+		/>
+        <answer
+			id="0-3"
+			title="3"
+			desc=""
+			value="3"
+		/>
+        <answer
+			id="0-4"
+			title="4"
+			desc=""
+			value="4"
+		/>
+        <answer
+			id="0-5"
+			title="5"
+			desc=""
+			value="5"
+		/>
+        <answer
+			id="0-6"
+			title="6"
+			desc=""
+			value="6"
+		/>
+        <answer
+			id="0-7"
+			title="7"
+			desc=""
+			value="7"
+		/>
+        <answer
+			id="0-8"
+			title="8"
+			desc=""
+			value="8"
+		/>
+        <answer
+			id="0-9"
+			title="9"
+			desc=""
+			value="9"
+		/>
+        <answer
+			id="0-10"
+			title="10 - A great deal"
+			desc="A great deal"
+			value="10"
+		/>
+
+    </answers>
+</questionare>

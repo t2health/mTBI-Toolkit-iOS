@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<workflow title="Algorithm C: follow-up of Persistent Symptoms">
+	<step id="0" positiveStepId="" negativeStepId="" neutralStepId="1">
+		<title></title>
+		<content>Reassess symptom severity and functional status and complete psychosocial evaluation.</content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="1" positiveStepId="3" negativeStepId="2" neutralStepId="">
+		<title>Are Symptoms and Functional Status Improved?</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="2" positiveStepId="5" negativeStepId="4" neutralStepId="">
+		<title>Are any Behavioral Health Disorders Established?</title>
+		<content><![CDATA[
+			<p>Assess for possible alternative causes for persistent symptoms:</p>
+			<ul>
+				<li>Sleep disorder</li>
+				<li>Mood disorder</li>
+				<li>Depression</li>
+				<li>Traumatic stress</li>
+				<li>Anxiety</li>
+				<li>Substance use disorder</li>
+			</ul>
+		]]></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="3" positiveStepId="" negativeStepId="" neutralStepId="8">
+		<title>Initiate/Continue Symptomatic Treatment and Provide Patient and Family Education</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="4" positiveStepId="7" negativeStepId="6" neutralStepId="">
+		<title>Are any Persistent Physical, Cognitive or Emotional Symptoms Present?</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="5" positiveStepId="" negativeStepId="" neutralStepId="4">
+		<title>Manage Comorbidity According to the Appropriate VA/DoD Clinical Practice Guidelines for Behavioral Health Conditions and Consider Referral to Mental Health.</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="6" positiveStepId="" negativeStepId="" neutralStepId="8">
+		<title>Consider Referral to Occupational/Vocational Therapy and Community Integration Programs and Continue Case Management.</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="7" positiveStepId="" negativeStepId="" neutralStepId="6">
+		<title>Refer for Further Specialty Evaluation and Treatment.</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="8" positiveStepId="" negativeStepId="" neutralStepId="9">
+		<title>Encourage, Reinforce and Monitor for Comorbid Conditions.</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+	<step id="9" positiveStepId="" negativeStepId="" neutralStepId="">
+		<title>Follow up and Reassess in Three to Four Months.</title>
+		<content></content>
+		<detailedContent></detailedContent>
+	</step>
+</workflow>
