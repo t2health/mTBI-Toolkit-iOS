@@ -1,6 +1,6 @@
 /*
  *
- * Mild Tramatic Brain Injury
+ * Mild Traumatic Brain Injury
  *
  * Copyright © 2009-2012 United States Government as represented by
  * the Chief Information Officer of the National Center for Telehealth
@@ -21,7 +21,7 @@
  *
  * Government Agency: The National Center for Telehealth and Technology
  * Government Agency Original Software Designation: mTBI001
- * Government Agency Original Software Title: Mild Tramatic Brain Injury
+ * Government Agency Original Software Title: Mild Traumatic Brain Injury
  * User Registration Requested. Please send email
  * with your contact information to: robert.kayl2@us.army.mil
  * Government Agency Point of Contact for Original Software: robert.kayl2@us.army.mil
